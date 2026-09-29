@@ -1,0 +1,4098 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "customer@example.com",
+      "password": "$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcg7b3XeKeUxWdeS86E36P4/1Pq",
+      "type": "customer",
+      "name": "Aarav Patel",
+      "phone": "+91 98201 23456",
+      "city": "Mumbai",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "email": "tech@example.com",
+      "password": "$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcg7b3XeKeUxWdeS86E36P4/1Pq",
+      "type": "technician",
+      "name": "Amitabh Sharma",
+      "specialty": "Electronics & Phones",
+      "rating": 4.9,
+      "reviews": 184,
+      "rate": "₹499 - ₹999/hr",
+      "city": "Mumbai",
+      "zipcode": "400007",
+      "address": "Lamington Road, Grant Road East, Mumbai, Maharashtra 400007",
+      "lat": 18.9633,
+      "lng": 72.8173,
+      "distance": "1.2 km",
+      "phone": "+91 98209 87654",
+      "bio": "Chip-level electronics engineer with 10+ years experience at Lamington Road. Apple & Android motherboard specialist.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "verified": true,
+      "available": true,
+      "experienceYears": 10,
+      "completedJobs": 540,
+      "skills": [
+        "iPhone / iPad OEM Screen",
+        "MacBook Logic Board",
+        "Micro-Soldering",
+        "Data Recovery",
+        "BGA Reballing"
+      ],
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "email": "sarah.jenkins.nyc@gmail.com",
+      "password": "$2a$10$yicFtnBs1htE8lYTFWN44Ozx1ixCQAOFneKfbhJwSlXYf.Tz5ZZ/m",
+      "name": "Sarah Jenkins",
+      "type": "customer",
+      "city": "Mumbai",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80",
+      "googleAuth": true,
+      "createdAt": "2026-08-17T09:58:53.637Z"
+    },
+    {
+      "id": 8,
+      "email": "buyer@example.com",
+      "password": "$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcg7b3XeKeUxWdeS86E36P4/1Pq",
+      "type": "buyer",
+      "name": "Karan Johar",
+      "companyName": "Nagpur Metal Recovery (Demo)",
+      "phone": "+91 98230 45678",
+      "city": "Nagpur",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "email": "central.ewaste@buyer.in",
+      "password": "$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcg7b3XeKeUxWdeS86E36P4/1Pq",
+      "type": "buyer",
+      "name": "Ramesh Aggarwal",
+      "companyName": "Central E-Waste Buyers (Demo)",
+      "phone": "+91 98201 88776",
+      "city": "Mumbai",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "email": "vidarbha.materials@buyer.in",
+      "password": "$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcg7b3XeKeUxWdeS86E36P4/1Pq",
+      "type": "buyer",
+      "name": "Sunil Deshmukh",
+      "companyName": "Vidarbha Material Traders (Demo)",
+      "phone": "+91 98900 12345",
+      "city": "Nagpur",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "id": 11,
+      "email": "buyer.test.1786961828452@vidarbha.in",
+      "password": "$2a$10$utACiz6/Sl3yoUcmPvyh3.YAOmGGBIO1GDe8Z8cpywi.6vfatV5UG",
+      "name": "Anand Mahindra",
+      "companyName": "Nagpur Circular Metals Ltd (Demo)",
+      "type": "buyer",
+      "city": "Nagpur",
+      "phone": "+91 98230 99999",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Nagpur%20Circular%20Metals%20Ltd%20(Demo)",
+      "createdAt": "2026-08-17T10:17:08.516Z"
+    },
+    {
+      "id": 12,
+      "email": "buyer.test.1786961956751@vidarbha.in",
+      "password": "$2a$10$q7jYw/aOilrWi2HaD6BIruIeO.zYEKUBaviCEo2lzisNJLdVIW90C",
+      "name": "Anand Mahindra",
+      "companyName": "Nagpur Circular Metals Ltd (Demo)",
+      "type": "buyer",
+      "city": "Nagpur",
+      "phone": "+91 98230 99999",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Nagpur%20Circular%20Metals%20Ltd%20(Demo)",
+      "createdAt": "2026-08-17T10:19:16.811Z"
+    },
+    {
+      "id": 13,
+      "email": "buyer.test.1786963224925@vidarbha.in",
+      "password": "$2a$10$SDe8lwWtnP6cAGjCO2iUxOoycCL2edFEP95g008nhTPZBOWjqaexG",
+      "name": "Anand Mahindra",
+      "companyName": "Nagpur Circular Metals Ltd (Demo)",
+      "type": "buyer",
+      "city": "Nagpur",
+      "phone": "+91 98230 99999",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Nagpur%20Circular%20Metals%20Ltd%20(Demo)",
+      "createdAt": "2026-08-17T10:40:24.975Z"
+    },
+    {
+      "id": 14,
+      "email": "buyer.test.1786990838699@vidarbha.in",
+      "password": "$2a$10$ludKJrXBazWkO7WgB/YWKOwSdV53ck70.D1BBwtO9Qa7Dx4KYZ1bu",
+      "name": "Anand Mahindra",
+      "companyName": "Nagpur Circular Metals Ltd (Demo)",
+      "type": "buyer",
+      "city": "Nagpur",
+      "phone": "+91 98230 99999",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Nagpur%20Circular%20Metals%20Ltd%20(Demo)",
+      "createdAt": "2026-08-17T18:20:38.762Z"
+    },
+    {
+      "id": 15,
+      "email": "vednatrenge10@gmail.com",
+      "password": "$2a$10$sDoTfJBnCBdYsB1o9ZRz1OcyFHYp4pXuUiq2RGfyEt9Hpi3QmKv66",
+      "name": "Himanshu ",
+      "type": "customer",
+      "phone": "+91 9373224551",
+      "city": "Nagpur",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Himanshu%20",
+      "createdAt": "2026-08-17T18:24:59.597Z"
+    },
+    {
+      "id": 16,
+      "email": "oneday@gmail.com",
+      "password": "$2a$10$kTAJu3Mdsak/m.ztfx532eoSCV9tQGJpo/QBDpoj20Gfx0XSJ0pcS",
+      "name": "Kartik ",
+      "type": "technician",
+      "specialty": "Electronics & Phones",
+      "city": "Nagpur",
+      "phone": "+91 9371459697",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Kartik%20",
+      "createdAt": "2026-08-17T18:26:07.248Z"
+    },
+    {
+      "id": 17,
+      "email": "buyer.test.1786992110018@vidarbha.in",
+      "password": "$2a$10$3Zp3QSdZYU93JkqzioYMCeK5JAB8u.kaSqkKlA6LSM5zeHiFcuJ1S",
+      "name": "Anand Mahindra",
+      "companyName": "Nagpur Circular Metals Ltd (Demo)",
+      "type": "buyer",
+      "city": "Nagpur",
+      "phone": "+91 98230 99999",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Nagpur%20Circular%20Metals%20Ltd%20(Demo)",
+      "createdAt": "2026-08-17T18:41:50.087Z"
+    },
+    {
+      "id": 18,
+      "email": "customer@example.com",
+      "password": "$2a$10$B07KYGcplLM0GrOqKI20ZOhW4RGipyNdp0Oc1OrCaQXN8GW5uklfK",
+      "name": "wqefgbn",
+      "type": "technician",
+      "specialty": "Electronics & Phones",
+      "city": "Nagpur",
+      "phone": "+91 ",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=wqefgbn",
+      "createdAt": "2026-08-17T18:42:54.172Z"
+    },
+    {
+      "id": 19,
+      "email": "piyushdudse08@gmail.com",
+      "password": "$2a$10$T/s9GwU0SfhDS32nmQSWuuIJJ1o2HJN71y4Tle49B0YDGFiVIbLQm",
+      "name": "piyush ",
+      "type": "customer",
+      "phone": "+91 8010456623",
+      "city": "Nagpur",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=piyush%20",
+      "createdAt": "2026-08-18T13:07:25.272Z"
+    }
+  ],
+  "technicians": [
+    {
+      "id": 2,
+      "userId": 2,
+      "name": "Amitabh Sharma",
+      "email": "tech@example.com",
+      "specialty": "Electronics & Phones",
+      "rating": 5,
+      "reviews": 13,
+      "rate": "₹499 - ₹999/hr",
+      "distance": "1.2 km",
+      "city": "Mumbai",
+      "zipcode": "400007",
+      "address": "Shop 14, Lamington Road, Grant Road East, Mumbai",
+      "lat": 18.9633,
+      "lng": 72.8173,
+      "phone": "+91 98209 87654",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "verified": true,
+      "available": true,
+      "skills": [
+        "Repairs",
+        "Diagnostics"
+      ],
+      "reviewsList": [
+        {
+          "id": 16,
+          "customerId": 1,
+          "customerName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Exceptional diagnostic speed and clean OEM screen install.",
+          "date": "2026-08-17"
+        },
+        {
+          "id": 15,
+          "customerId": 1,
+          "customerName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Exceptional diagnostic speed and clean OEM screen install.",
+          "date": "2026-08-17"
+        },
+        {
+          "id": 14,
+          "customerId": 1,
+          "customerName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Exceptional diagnostic speed and clean OEM screen install.",
+          "date": "2026-08-17"
+        },
+        {
+          "id": 13,
+          "customerId": 1,
+          "customerName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Super fast OEM display replacement! Looks brand new.",
+          "date": "2026-08-17"
+        },
+        {
+          "id": 12,
+          "customerId": 1,
+          "customerName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Super fast OEM display replacement! Looks brand new.",
+          "date": "2026-08-17"
+        },
+        {
+          "id": 11,
+          "customerId": 1,
+          "customerName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Super fast OEM display replacement! Looks brand new.",
+          "date": "2026-08-17"
+        },
+        {
+          "id": 10,
+          "customerId": 1,
+          "customerName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Super fast OEM display replacement! Looks brand new.",
+          "date": "2026-08-17"
+        },
+        {
+          "id": 9,
+          "customerId": 1,
+          "customerName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Super fast OEM display replacement! Looks brand new.",
+          "date": "2026-08-17"
+        },
+        {
+          "id": 7,
+          "customerId": 1,
+          "customerName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Super fast OEM display replacement! Looks brand new.",
+          "date": "2026-08-17"
+        },
+        {
+          "id": 6,
+          "customerId": 1,
+          "customerName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Super fast OEM display replacement! Looks brand new.",
+          "date": "2026-08-17"
+        },
+        {
+          "id": 5,
+          "customerId": 1,
+          "customerName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Exceptional diagnostic speed and clean OEM screen install.",
+          "date": "2026-08-17"
+        },
+        {
+          "id": 4,
+          "customerId": 1,
+          "customerName": "Aarav Patel",
+          "rating": 5,
+          "comment": "Exceptional diagnostic speed and clean OEM screen install.",
+          "date": "2026-08-17"
+        },
+        {
+          "id": 1,
+          "customerName": "Vikram Joshi",
+          "rating": 5,
+          "comment": "Replaced iPhone 14 Pro screen in 45 mins.",
+          "date": "2026-08-14"
+        }
+      ],
+      "shopName": "iCare Tech Solutions",
+      "shopAddress": "Shop No. 12, Main Market",
+      "shopCity": "Nagpur",
+      "shopPincode": "440001",
+      "shopPhone": "9876543210",
+      "shopMapsLink": "https://www.google.com/maps/search/?api=1&query=iCare%20Tech%20Solutions%2C%20Shop%20No.%2012%2C%20Main%20Market%2C%20Nagpur%2C%20440001"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "name": "Rohan Kulkarni (Precision Tech Labs)",
+      "email": "rohan.tech@bengaluru.in",
+      "specialty": "Electronics & Phones",
+      "rating": 4.9,
+      "reviews": 215,
+      "rate": "₹599 - ₹1,199/hr",
+      "distance": "2.1 km",
+      "city": "Bangalore",
+      "zipcode": "560038",
+      "address": "100 Feet Road, Indiranagar, Bengaluru",
+      "lat": 12.9784,
+      "lng": 77.6408,
+      "phone": "+91 98450 11223",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "verified": true,
+      "available": true,
+      "skills": [
+        "Laptop Boards",
+        "SSD Recovery",
+        "Circuits"
+      ],
+      "reviewsList": [
+        {
+          "id": 1,
+          "customerName": "Karthik Rao",
+          "rating": 5,
+          "comment": "Fixed laptop overheating quickly.",
+          "date": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "name": "Suresh Deshmukh (CoolTech Services)",
+      "email": "suresh.appliances@pune.in",
+      "specialty": "Appliances",
+      "rating": 4.8,
+      "reviews": 162,
+      "rate": "₹399 - ₹799/hr",
+      "distance": "1.8 km",
+      "city": "Pune",
+      "zipcode": "411005",
+      "address": "FC Road, Shivaji Nagar, Pune",
+      "lat": 18.5284,
+      "lng": 73.8427,
+      "phone": "+91 98220 54321",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "verified": true,
+      "available": true,
+      "skills": [
+        "Inverter ACs",
+        "Refrigerators",
+        "Washing Machines"
+      ],
+      "reviewsList": [
+        {
+          "id": 1,
+          "customerName": "Tanmay Renge",
+          "rating": 5,
+          "comment": "Fixed fridge cooling on same day.",
+          "date": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "name": "Rajesh Verma (PedalPro & EV Works)",
+      "email": "rajesh.cycle@delhi.in",
+      "specialty": "Bicycles",
+      "rating": 4.8,
+      "reviews": 94,
+      "rate": "₹299 - ₹599/hr",
+      "distance": "3.0 km",
+      "city": "Delhi NCR",
+      "zipcode": "110019",
+      "address": "Nehru Place, New Delhi",
+      "lat": 28.5494,
+      "lng": 77.2536,
+      "phone": "+91 98110 99887",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&q=80",
+      "verified": true,
+      "available": true,
+      "skills": [
+        "Gears",
+        "Hydraulic Brakes",
+        "E-Cycles"
+      ],
+      "reviewsList": [
+        {
+          "id": 1,
+          "customerName": "Arjun Gupta",
+          "rating": 5,
+          "comment": "Great cycle tuning.",
+          "date": "2026-08-09"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "name": "Mohammad Tariq (Heritage Woodcraft)",
+      "email": "tariq.furniture@hyderabad.in",
+      "specialty": "Furniture",
+      "rating": 4.7,
+      "reviews": 138,
+      "rate": "₹350 - ₹850/hr",
+      "distance": "2.4 km",
+      "city": "Hyderabad",
+      "zipcode": "500034",
+      "address": "Banjara Hills, Hyderabad",
+      "lat": 17.4156,
+      "lng": 78.4357,
+      "phone": "+91 98490 33445",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "verified": true,
+      "available": true,
+      "skills": [
+        "Teak Wood",
+        "Polishing",
+        "Joints"
+      ],
+      "reviewsList": [
+        {
+          "id": 1,
+          "customerName": "Sanjay Reddy",
+          "rating": 5,
+          "comment": "Restored dining chairs perfectly.",
+          "date": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "name": "Pooja Iyer (HomeCare Pro Services)",
+      "email": "pooja.iyer@chennai.in",
+      "specialty": "Appliances",
+      "rating": 4.9,
+      "reviews": 177,
+      "rate": "₹450 - ₹850/hr",
+      "distance": "1.9 km",
+      "city": "Chennai",
+      "zipcode": "600020",
+      "address": "Adyar, Chennai",
+      "lat": 13.0012,
+      "lng": 80.2565,
+      "phone": "+91 98400 77665",
+      "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150&auto=format&fit=crop&q=80",
+      "verified": true,
+      "available": true,
+      "skills": [
+        "Washers",
+        "Microwaves",
+        "PCBs"
+      ],
+      "reviewsList": [
+        {
+          "id": 1,
+          "customerName": "Deepak Narayanan",
+          "rating": 5,
+          "comment": "Repaired washing machine motor.",
+          "date": "2026-08-13"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "userId": 16,
+      "name": "Kartik ",
+      "email": "oneday@gmail.com",
+      "specialty": "Electronics & Phones",
+      "rating": 5,
+      "reviews": 0,
+      "rate": "₹499/hr",
+      "distance": "1.5 km",
+      "city": "Nagpur",
+      "zipcode": "400001",
+      "address": "Nagpur",
+      "phone": "+91 9371459697",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Kartik%20",
+      "verified": true,
+      "available": true,
+      "skills": [
+        "Chip-Level Soldering",
+        "OEM Component Replacement",
+        "Micro-Diagnostics"
+      ],
+      "reviewsList": [],
+      "bio": "",
+      "shopMapsLink": "https://www.google.com/maps/search/?api=1&query=Nagpur%2C%20Nagpur%2C%20400001"
+    },
+    {
+      "id": 9,
+      "userId": 18,
+      "name": "wqefgbn",
+      "email": "customer@example.com",
+      "specialty": "Electronics & Phones",
+      "rating": 5,
+      "reviews": 0,
+      "rate": "₹499/hr",
+      "distance": "1.5 km",
+      "city": "Nagpur",
+      "zipcode": "400001",
+      "address": "Nagpur",
+      "phone": "+91 ",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=wqefgbn",
+      "verified": true,
+      "available": true,
+      "skills": [
+        "Repairs",
+        "Diagnostics"
+      ],
+      "shopName": "Mobile",
+      "shopAddress": "Nagpur, Maharashtra",
+      "shopCity": "Nagpur",
+      "shopPincode": "400001",
+      "shopPhone": "+91 9371459697",
+      "shopMapsLink": "https://www.google.com/maps/search/?api=1&query=Mobile%2C%20Nagpur%2C%20Maharashtra%2C%20Nagpur%2C%20400001",
+      "reviewsList": []
+    }
+  ],
+  "buyers": [
+    {
+      "id": 1,
+      "userId": 8,
+      "email": "buyer@example.com",
+      "name": "Karan Johar",
+      "companyName": "Nagpur Metal Recovery (Demo)",
+      "phone": "+91 98230 45678",
+      "city": "Nagpur",
+      "address": "Plot 42, MIDC Industrial Area, Hingna, Nagpur, Maharashtra",
+      "materialsWanted": [
+        "Copper",
+        "Aluminium",
+        "Electronic Components"
+      ],
+      "verified": true,
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 9,
+      "email": "central.ewaste@buyer.in",
+      "name": "Ramesh Aggarwal",
+      "companyName": "Central E-Waste Buyers (Demo)",
+      "phone": "+91 98201 88776",
+      "city": "Mumbai",
+      "address": "Gala 12, Dharavi Circular Industrial Hub, Mumbai",
+      "materialsWanted": [
+        "Electronic Components",
+        "Copper",
+        "Steel",
+        "Plastic"
+      ],
+      "verified": true,
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 10,
+      "email": "vidarbha.materials@buyer.in",
+      "name": "Sunil Deshmukh",
+      "companyName": "Vidarbha Material Traders (Demo)",
+      "phone": "+91 98900 12345",
+      "city": "Nagpur",
+      "address": "Kalamna Market Road, Nagpur, Maharashtra",
+      "materialsWanted": [
+        "Aluminium",
+        "Steel",
+        "Mixed E-Waste"
+      ],
+      "verified": true,
+      "createdAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "userId": 11,
+      "name": "Anand Mahindra",
+      "companyName": "Nagpur Circular Metals Ltd (Demo)",
+      "email": "buyer.test.1786961828452@vidarbha.in",
+      "phone": "+91 98230 99999",
+      "city": "Nagpur",
+      "address": "MIDC Butibori, Nagpur",
+      "materialsWanted": [
+        "Copper",
+        "Aluminium",
+        "Steel"
+      ],
+      "verified": true,
+      "createdAt": "2026-08-17T10:17:08.516Z"
+    },
+    {
+      "id": 5,
+      "userId": 12,
+      "name": "Anand Mahindra",
+      "companyName": "Nagpur Circular Metals Ltd (Demo)",
+      "email": "buyer.test.1786961956751@vidarbha.in",
+      "phone": "+91 98230 99999",
+      "city": "Nagpur",
+      "address": "MIDC Butibori, Nagpur",
+      "materialsWanted": [
+        "Copper",
+        "Aluminium",
+        "Steel"
+      ],
+      "verified": true,
+      "createdAt": "2026-08-17T10:19:16.811Z"
+    },
+    {
+      "id": 6,
+      "userId": 13,
+      "name": "Anand Mahindra",
+      "companyName": "Nagpur Circular Metals Ltd (Demo)",
+      "email": "buyer.test.1786963224925@vidarbha.in",
+      "phone": "+91 98230 99999",
+      "city": "Nagpur",
+      "address": "MIDC Butibori, Nagpur",
+      "materialsWanted": [
+        "Copper",
+        "Aluminium",
+        "Steel"
+      ],
+      "verified": true,
+      "createdAt": "2026-08-17T10:40:24.975Z"
+    },
+    {
+      "id": 7,
+      "userId": 14,
+      "name": "Anand Mahindra",
+      "companyName": "Nagpur Circular Metals Ltd (Demo)",
+      "email": "buyer.test.1786990838699@vidarbha.in",
+      "phone": "+91 98230 99999",
+      "city": "Nagpur",
+      "address": "MIDC Butibori, Nagpur",
+      "materialsWanted": [
+        "Copper",
+        "Aluminium",
+        "Steel"
+      ],
+      "verified": true,
+      "createdAt": "2026-08-17T18:20:38.762Z"
+    },
+    {
+      "id": 8,
+      "userId": 17,
+      "name": "Anand Mahindra",
+      "companyName": "Nagpur Circular Metals Ltd (Demo)",
+      "email": "buyer.test.1786992110018@vidarbha.in",
+      "phone": "+91 98230 99999",
+      "city": "Nagpur",
+      "address": "MIDC Butibori, Nagpur",
+      "materialsWanted": [
+        "Copper",
+        "Aluminium",
+        "Steel"
+      ],
+      "verified": true,
+      "createdAt": "2026-08-17T18:41:50.087Z"
+    }
+  ],
+  "recoveredMaterials": [
+    {
+      "id": 41,
+      "recycleRequestId": 17,
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "materialType": "Electronic Components",
+      "quantity": 0.4,
+      "unit": "kg",
+      "estimatedValue": "₹750",
+      "location": "Hingna Road, Nagpur",
+      "status": "completed",
+      "createdAt": "2026-08-17T18:41:50.103Z"
+    },
+    {
+      "id": 40,
+      "recycleRequestId": 17,
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "materialType": "Aluminium",
+      "quantity": 1.2,
+      "unit": "kg",
+      "estimatedValue": "₹240",
+      "location": "Hingna Road, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T18:41:50.103Z"
+    },
+    {
+      "id": 39,
+      "recycleRequestId": 17,
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "materialType": "Copper",
+      "quantity": 0.8,
+      "unit": "kg",
+      "estimatedValue": "₹550",
+      "location": "Hingna Road, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T18:41:50.103Z"
+    },
+    {
+      "id": 38,
+      "recycleRequestId": 16,
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "materialType": "Electronic Components",
+      "quantity": 0.4,
+      "unit": "kg",
+      "estimatedValue": "₹750",
+      "location": "Hingna Road, Nagpur",
+      "status": "completed",
+      "createdAt": "2026-08-17T18:20:38.774Z"
+    },
+    {
+      "id": 37,
+      "recycleRequestId": 16,
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "materialType": "Aluminium",
+      "quantity": 1.2,
+      "unit": "kg",
+      "estimatedValue": "₹240",
+      "location": "Hingna Road, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T18:20:38.774Z"
+    },
+    {
+      "id": 36,
+      "recycleRequestId": 16,
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "materialType": "Copper",
+      "quantity": 0.8,
+      "unit": "kg",
+      "estimatedValue": "₹550",
+      "location": "Hingna Road, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T18:20:38.774Z"
+    },
+    {
+      "id": 35,
+      "recycleRequestId": 15,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Electronic Components",
+      "quantity": 0.4,
+      "unit": "kg",
+      "estimatedValue": "₹750",
+      "location": "MIDC Area, Nagpur",
+      "status": "completed",
+      "createdAt": "2026-08-17T17:40:05.293Z"
+    },
+    {
+      "id": 34,
+      "recycleRequestId": 15,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Aluminium",
+      "quantity": 1.2,
+      "unit": "kg",
+      "estimatedValue": "₹240",
+      "location": "MIDC Area, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T17:40:05.293Z"
+    },
+    {
+      "id": 33,
+      "recycleRequestId": 15,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Copper",
+      "quantity": 0.8,
+      "unit": "kg",
+      "estimatedValue": "₹550",
+      "location": "MIDC Area, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T17:40:05.293Z"
+    },
+    {
+      "id": 32,
+      "recycleRequestId": 14,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Electronic Components",
+      "quantity": 0.4,
+      "unit": "kg",
+      "estimatedValue": "₹750",
+      "location": "MIDC Area, Nagpur",
+      "status": "completed",
+      "createdAt": "2026-08-17T17:37:37.045Z"
+    },
+    {
+      "id": 31,
+      "recycleRequestId": 14,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Aluminium",
+      "quantity": 1.2,
+      "unit": "kg",
+      "estimatedValue": "₹240",
+      "location": "MIDC Area, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T17:37:37.045Z"
+    },
+    {
+      "id": 30,
+      "recycleRequestId": 14,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Copper",
+      "quantity": 0.8,
+      "unit": "kg",
+      "estimatedValue": "₹550",
+      "location": "MIDC Area, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T17:37:37.045Z"
+    },
+    {
+      "id": 29,
+      "recycleRequestId": 13,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Electronic Components",
+      "quantity": 0.4,
+      "unit": "kg",
+      "estimatedValue": "₹750",
+      "location": "MIDC Area, Nagpur",
+      "status": "completed",
+      "createdAt": "2026-08-17T17:27:34.417Z"
+    },
+    {
+      "id": 28,
+      "recycleRequestId": 13,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Aluminium",
+      "quantity": 1.2,
+      "unit": "kg",
+      "estimatedValue": "₹240",
+      "location": "MIDC Area, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T17:27:34.417Z"
+    },
+    {
+      "id": 27,
+      "recycleRequestId": 13,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Copper",
+      "quantity": 0.8,
+      "unit": "kg",
+      "estimatedValue": "₹550",
+      "location": "MIDC Area, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T17:27:34.417Z"
+    },
+    {
+      "id": 26,
+      "recycleRequestId": 12,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Electronic Components",
+      "quantity": 0.4,
+      "unit": "kg",
+      "estimatedValue": "₹750",
+      "location": "MIDC Area, Nagpur",
+      "status": "completed",
+      "createdAt": "2026-08-17T17:20:26.511Z"
+    },
+    {
+      "id": 25,
+      "recycleRequestId": 12,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Aluminium",
+      "quantity": 1.2,
+      "unit": "kg",
+      "estimatedValue": "₹240",
+      "location": "MIDC Area, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T17:20:26.511Z"
+    },
+    {
+      "id": 24,
+      "recycleRequestId": 12,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Copper",
+      "quantity": 0.8,
+      "unit": "kg",
+      "estimatedValue": "₹550",
+      "location": "MIDC Area, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T17:20:26.511Z"
+    },
+    {
+      "id": 23,
+      "recycleRequestId": 11,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Electronic Components",
+      "quantity": 0.4,
+      "unit": "kg",
+      "estimatedValue": "₹750",
+      "location": "MIDC Area, Nagpur",
+      "status": "completed",
+      "createdAt": "2026-08-17T17:08:01.029Z"
+    },
+    {
+      "id": 22,
+      "recycleRequestId": 11,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Aluminium",
+      "quantity": 1.2,
+      "unit": "kg",
+      "estimatedValue": "₹240",
+      "location": "MIDC Area, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T17:08:01.029Z"
+    },
+    {
+      "id": 21,
+      "recycleRequestId": 11,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Copper",
+      "quantity": 0.8,
+      "unit": "kg",
+      "estimatedValue": "₹550",
+      "location": "MIDC Area, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T17:08:01.029Z"
+    },
+    {
+      "id": 20,
+      "recycleRequestId": 10,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Electronic Components",
+      "quantity": 0.4,
+      "unit": "kg",
+      "estimatedValue": "₹750",
+      "location": "MIDC Area, Nagpur",
+      "status": "completed",
+      "createdAt": "2026-08-17T16:13:12.529Z"
+    },
+    {
+      "id": 19,
+      "recycleRequestId": 10,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Aluminium",
+      "quantity": 1.2,
+      "unit": "kg",
+      "estimatedValue": "₹240",
+      "location": "MIDC Area, Nagpur",
+      "status": "offer_received",
+      "createdAt": "2026-08-17T16:13:12.529Z"
+    },
+    {
+      "id": 18,
+      "recycleRequestId": 10,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Copper",
+      "quantity": 0.8,
+      "unit": "kg",
+      "estimatedValue": "₹550",
+      "location": "MIDC Area, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T16:13:12.529Z"
+    },
+    {
+      "id": 17,
+      "recycleRequestId": 9,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Electronic Components",
+      "quantity": 0.4,
+      "unit": "kg",
+      "estimatedValue": "₹750",
+      "location": "MIDC Area, Nagpur",
+      "status": "completed",
+      "createdAt": "2026-08-17T15:37:49.943Z"
+    },
+    {
+      "id": 16,
+      "recycleRequestId": 9,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Aluminium",
+      "quantity": 1.2,
+      "unit": "kg",
+      "estimatedValue": "₹240",
+      "location": "MIDC Area, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T15:37:49.943Z"
+    },
+    {
+      "id": 15,
+      "recycleRequestId": 9,
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "materialType": "Copper",
+      "quantity": 0.8,
+      "unit": "kg",
+      "estimatedValue": "₹550",
+      "location": "MIDC Area, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T15:37:49.943Z"
+    },
+    {
+      "id": 14,
+      "recycleRequestId": 8,
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "materialType": "Electronic Components",
+      "quantity": 0.4,
+      "unit": "kg",
+      "estimatedValue": "₹750",
+      "location": "Hingna Road, Nagpur",
+      "status": "completed",
+      "createdAt": "2026-08-17T10:40:24.984Z"
+    },
+    {
+      "id": 13,
+      "recycleRequestId": 8,
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "materialType": "Aluminium",
+      "quantity": 1.2,
+      "unit": "kg",
+      "estimatedValue": "₹240",
+      "location": "Hingna Road, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T10:40:24.984Z"
+    },
+    {
+      "id": 12,
+      "recycleRequestId": 8,
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "materialType": "Copper",
+      "quantity": 0.8,
+      "unit": "kg",
+      "estimatedValue": "₹550",
+      "location": "Hingna Road, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T10:40:24.984Z"
+    },
+    {
+      "id": 11,
+      "recycleRequestId": 6,
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "materialType": "Electronic Components",
+      "quantity": 0.4,
+      "unit": "kg",
+      "estimatedValue": "₹750",
+      "location": "Hingna Road, Nagpur",
+      "status": "completed",
+      "createdAt": "2026-08-17T10:19:16.818Z"
+    },
+    {
+      "id": 10,
+      "recycleRequestId": 6,
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "materialType": "Aluminium",
+      "quantity": 1.2,
+      "unit": "kg",
+      "estimatedValue": "₹240",
+      "location": "Hingna Road, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T10:19:16.818Z"
+    },
+    {
+      "id": 9,
+      "recycleRequestId": 6,
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "materialType": "Copper",
+      "quantity": 0.8,
+      "unit": "kg",
+      "estimatedValue": "₹550",
+      "location": "Hingna Road, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T10:19:16.818Z"
+    },
+    {
+      "id": 8,
+      "recycleRequestId": 5,
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "materialType": "Electronic Components",
+      "quantity": 0.4,
+      "unit": "kg",
+      "estimatedValue": "₹750",
+      "location": "Hingna Road, Nagpur",
+      "status": "completed",
+      "createdAt": "2026-08-17T10:17:08.529Z"
+    },
+    {
+      "id": 7,
+      "recycleRequestId": 5,
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "materialType": "Aluminium",
+      "quantity": 1.2,
+      "unit": "kg",
+      "estimatedValue": "₹240",
+      "location": "Hingna Road, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T10:17:08.529Z"
+    },
+    {
+      "id": 6,
+      "recycleRequestId": 5,
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "materialType": "Copper",
+      "quantity": 0.8,
+      "unit": "kg",
+      "estimatedValue": "₹550",
+      "location": "Hingna Road, Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-17T10:17:08.529Z"
+    },
+    {
+      "id": 1,
+      "recycleRequestId": 1,
+      "itemType": "Old Dell Latitude Laptop",
+      "materialType": "Copper",
+      "quantity": 0.8,
+      "unit": "kg",
+      "estimatedValue": "₹550",
+      "location": "Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-16T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "recycleRequestId": 1,
+      "itemType": "Old Dell Latitude Laptop",
+      "materialType": "Aluminium",
+      "quantity": 1.2,
+      "unit": "kg",
+      "estimatedValue": "₹240",
+      "location": "Nagpur",
+      "status": "available",
+      "createdAt": "2026-08-16T09:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "recycleRequestId": 2,
+      "itemType": "Old Smart TV PCB & Chassis",
+      "materialType": "Electronic Components",
+      "quantity": 0.5,
+      "unit": "kg",
+      "estimatedValue": "₹900",
+      "location": "Mumbai",
+      "status": "offer_received",
+      "createdAt": "2026-08-15T11:30:00.000Z"
+    },
+    {
+      "id": 4,
+      "recycleRequestId": 3,
+      "itemType": "Defective Washing Machine Drum",
+      "materialType": "Steel",
+      "quantity": 4.5,
+      "unit": "kg",
+      "estimatedValue": "₹380",
+      "location": "Pune",
+      "status": "available",
+      "createdAt": "2026-08-14T14:15:00.000Z"
+    },
+    {
+      "id": 5,
+      "recycleRequestId": 4,
+      "itemType": "Defective Split AC Compressor Coil",
+      "materialType": "Copper",
+      "quantity": 2.2,
+      "unit": "kg",
+      "estimatedValue": "₹1,650",
+      "location": "Nagpur",
+      "status": "buyer_matched",
+      "createdAt": "2026-08-13T16:45:00.000Z"
+    }
+  ],
+  "materialOffers": [
+    {
+      "id": 16,
+      "materialId": 41,
+      "materialType": "Electronic Components",
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "buyerId": 1,
+      "buyerUserId": 8,
+      "buyerName": "Karan Johar",
+      "buyerCompanyName": "Nagpur Metal Recovery (Demo)",
+      "quantity": 0.4,
+      "unit": "kg",
+      "offeredPrice": "₹600",
+      "message": "Immediate pickup from Nagpur sorting center.",
+      "status": "completed",
+      "createdAt": "2026-08-17T18:41:50.114Z"
+    },
+    {
+      "id": 15,
+      "materialId": 38,
+      "materialType": "Electronic Components",
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "buyerId": 1,
+      "buyerUserId": 8,
+      "buyerName": "Karan Johar",
+      "buyerCompanyName": "Nagpur Metal Recovery (Demo)",
+      "quantity": 0.4,
+      "unit": "kg",
+      "offeredPrice": "₹600",
+      "message": "Immediate pickup from Nagpur sorting center.",
+      "status": "completed",
+      "createdAt": "2026-08-17T18:20:38.786Z"
+    },
+    {
+      "id": 14,
+      "materialId": 35,
+      "materialType": "Electronic Components",
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "buyerId": 1,
+      "buyerUserId": 8,
+      "buyerName": "Karan Johar",
+      "buyerCompanyName": "Nagpur Metal Recovery (Demo)",
+      "quantity": 0.4,
+      "unit": "kg",
+      "offeredPrice": "₹750",
+      "message": "Direct industrial bulk scrap pickup",
+      "status": "completed",
+      "createdAt": "2026-08-17T17:40:05.328Z"
+    },
+    {
+      "id": 13,
+      "materialId": 32,
+      "materialType": "Electronic Components",
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "buyerId": 1,
+      "buyerUserId": 8,
+      "buyerName": "Karan Johar",
+      "buyerCompanyName": "Nagpur Metal Recovery (Demo)",
+      "quantity": 0.4,
+      "unit": "kg",
+      "offeredPrice": "₹750",
+      "message": "Direct industrial bulk scrap pickup",
+      "status": "completed",
+      "createdAt": "2026-08-17T17:37:37.074Z"
+    },
+    {
+      "id": 12,
+      "materialId": 29,
+      "materialType": "Electronic Components",
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "buyerId": 1,
+      "buyerUserId": 8,
+      "buyerName": "Karan Johar",
+      "buyerCompanyName": "Nagpur Metal Recovery (Demo)",
+      "quantity": 0.4,
+      "unit": "kg",
+      "offeredPrice": "₹750",
+      "message": "Direct industrial bulk scrap pickup",
+      "status": "completed",
+      "createdAt": "2026-08-17T17:27:34.478Z"
+    },
+    {
+      "id": 11,
+      "materialId": 26,
+      "materialType": "Electronic Components",
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "buyerId": 1,
+      "buyerUserId": 8,
+      "buyerName": "Karan Johar",
+      "buyerCompanyName": "Nagpur Metal Recovery (Demo)",
+      "quantity": 0.4,
+      "unit": "kg",
+      "offeredPrice": "₹750",
+      "message": "Direct industrial bulk scrap pickup",
+      "status": "completed",
+      "createdAt": "2026-08-17T17:20:26.572Z"
+    },
+    {
+      "id": 10,
+      "materialId": 23,
+      "materialType": "Electronic Components",
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "buyerId": 1,
+      "buyerUserId": 8,
+      "buyerName": "Karan Johar",
+      "buyerCompanyName": "Nagpur Metal Recovery (Demo)",
+      "quantity": 0.4,
+      "unit": "kg",
+      "offeredPrice": "₹750",
+      "message": "Direct industrial bulk scrap pickup",
+      "status": "completed",
+      "createdAt": "2026-08-17T17:08:01.089Z"
+    },
+    {
+      "id": 9,
+      "materialId": 19,
+      "materialType": "Aluminium",
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "buyerId": 1,
+      "buyerUserId": 8,
+      "buyerName": "Karan Johar",
+      "buyerCompanyName": "Nagpur Metal Recovery (Demo)",
+      "quantity": 1.2,
+      "unit": "kg",
+      "offeredPrice": "₹240",
+      "message": "Offer from Nagpur Metal Recovery (Demo) for procurement.",
+      "status": "pending",
+      "createdAt": "2026-08-17T16:32:13.669Z"
+    },
+    {
+      "id": 8,
+      "materialId": 20,
+      "materialType": "Electronic Components",
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "buyerId": 1,
+      "buyerUserId": 8,
+      "buyerName": "Karan Johar",
+      "buyerCompanyName": "Nagpur Metal Recovery (Demo)",
+      "quantity": 0.4,
+      "unit": "kg",
+      "offeredPrice": "₹750",
+      "message": "Direct industrial bulk scrap pickup",
+      "status": "completed",
+      "createdAt": "2026-08-17T16:13:12.591Z"
+    },
+    {
+      "id": 7,
+      "materialId": 17,
+      "materialType": "Electronic Components",
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "buyerId": 1,
+      "buyerUserId": 8,
+      "buyerName": "Karan Johar",
+      "buyerCompanyName": "Nagpur Metal Recovery (Demo)",
+      "quantity": 0.4,
+      "unit": "kg",
+      "offeredPrice": "₹750",
+      "message": "Direct industrial bulk scrap pickup",
+      "status": "completed",
+      "createdAt": "2026-08-17T15:37:49.991Z"
+    },
+    {
+      "id": 6,
+      "materialId": 14,
+      "materialType": "Electronic Components",
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "buyerId": 1,
+      "buyerUserId": 8,
+      "buyerName": "Karan Johar",
+      "buyerCompanyName": "Nagpur Metal Recovery (Demo)",
+      "quantity": 0.4,
+      "unit": "kg",
+      "offeredPrice": "₹600",
+      "message": "Immediate pickup from Nagpur sorting center.",
+      "status": "completed",
+      "createdAt": "2026-08-17T10:40:24.990Z"
+    },
+    {
+      "id": 5,
+      "materialId": 11,
+      "materialType": "Electronic Components",
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "buyerId": 1,
+      "buyerUserId": 8,
+      "buyerName": "Karan Johar",
+      "buyerCompanyName": "Nagpur Metal Recovery (Demo)",
+      "quantity": 0.4,
+      "unit": "kg",
+      "offeredPrice": "₹600",
+      "message": "Immediate pickup from Nagpur sorting center.",
+      "status": "completed",
+      "createdAt": "2026-08-17T10:19:16.823Z"
+    },
+    {
+      "id": 4,
+      "materialId": 8,
+      "materialType": "Electronic Components",
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "buyerId": 1,
+      "buyerUserId": 8,
+      "buyerName": "Karan Johar",
+      "buyerCompanyName": "Nagpur Metal Recovery (Demo)",
+      "quantity": 0.4,
+      "unit": "kg",
+      "offeredPrice": "₹600",
+      "message": "Immediate pickup from Nagpur sorting center.",
+      "status": "completed",
+      "createdAt": "2026-08-17T10:17:08.537Z"
+    },
+    {
+      "id": 1,
+      "materialId": 3,
+      "buyerId": 1,
+      "buyerUserId": 8,
+      "buyerName": "Karan Johar",
+      "buyerCompanyName": "Nagpur Metal Recovery (Demo)",
+      "quantity": 0.5,
+      "offeredPrice": "₹950",
+      "message": "Ready for immediate pickup and batch processing.",
+      "status": "pending",
+      "createdAt": "2026-08-16T12:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "materialId": 5,
+      "buyerId": 2,
+      "buyerUserId": 9,
+      "buyerName": "Ramesh Aggarwal",
+      "buyerCompanyName": "Central E-Waste Buyers (Demo)",
+      "quantity": 2.2,
+      "offeredPrice": "₹1,700",
+      "message": "Standard industrial grade purchase offer.",
+      "status": "accepted",
+      "createdAt": "2026-08-14T10:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "materialId": 5,
+      "buyerId": 3,
+      "buyerUserId": 10,
+      "buyerName": "Sunil Deshmukh",
+      "buyerCompanyName": "Vidarbha Material Traders (Demo)",
+      "quantity": 2.2,
+      "offeredPrice": "₹1,600",
+      "message": "Can pick up tomorrow morning from warehouse.",
+      "status": "rejected",
+      "createdAt": "2026-08-14T08:30:00.000Z"
+    }
+  ],
+  "rewards": [
+    {
+      "id": 14,
+      "customerId": 1,
+      "points": 1320,
+      "type": "earned",
+      "description": "E-Waste Credit: Broken Dell XPS Laptop & Monitor",
+      "createdAt": "2026-08-17T18:41:50.093Z"
+    },
+    {
+      "id": 13,
+      "customerId": 1,
+      "points": 1320,
+      "type": "earned",
+      "description": "E-Waste Credit: Broken Dell XPS Laptop & Monitor",
+      "createdAt": "2026-08-17T18:20:38.768Z"
+    },
+    {
+      "id": 12,
+      "customerId": 1,
+      "points": 1650,
+      "type": "earned",
+      "description": "E-Waste Credit: Crushed Laptop & Burnt Motherboard",
+      "createdAt": "2026-08-17T17:40:05.266Z"
+    },
+    {
+      "id": 11,
+      "customerId": 1,
+      "points": 1650,
+      "type": "earned",
+      "description": "E-Waste Credit: Crushed Laptop & Burnt Motherboard",
+      "createdAt": "2026-08-17T17:37:37.013Z"
+    },
+    {
+      "id": 10,
+      "customerId": 1,
+      "points": 1650,
+      "type": "earned",
+      "description": "E-Waste Credit: Crushed Laptop & Burnt Motherboard",
+      "createdAt": "2026-08-17T17:27:34.337Z"
+    },
+    {
+      "id": 9,
+      "customerId": 1,
+      "points": 1650,
+      "type": "earned",
+      "description": "E-Waste Credit: Crushed Laptop & Burnt Motherboard",
+      "createdAt": "2026-08-17T17:20:26.444Z"
+    },
+    {
+      "id": 8,
+      "customerId": 1,
+      "points": 1650,
+      "type": "earned",
+      "description": "E-Waste Credit: Crushed Laptop & Burnt Motherboard",
+      "createdAt": "2026-08-17T17:08:00.965Z"
+    },
+    {
+      "id": 7,
+      "customerId": 1,
+      "points": 1650,
+      "type": "earned",
+      "description": "E-Waste Credit: Crushed Laptop & Burnt Motherboard",
+      "createdAt": "2026-08-17T16:13:12.450Z"
+    },
+    {
+      "id": 6,
+      "customerId": 1,
+      "points": 1650,
+      "type": "earned",
+      "description": "E-Waste Credit: Crushed Laptop & Burnt Motherboard",
+      "createdAt": "2026-08-17T15:37:49.885Z"
+    },
+    {
+      "id": 5,
+      "customerId": 1,
+      "points": 1320,
+      "type": "earned",
+      "description": "E-Waste Credit: Broken Dell XPS Laptop & Monitor",
+      "createdAt": "2026-08-17T10:40:24.980Z"
+    },
+    {
+      "id": 4,
+      "customerId": 1,
+      "points": 550,
+      "type": "earned",
+      "description": "E-Waste Credit: Old Electronic Device",
+      "createdAt": "2026-08-17T10:27:33.723Z"
+    },
+    {
+      "id": 3,
+      "customerId": 1,
+      "points": 1320,
+      "type": "earned",
+      "description": "E-Waste Credit: Broken Dell XPS Laptop & Monitor",
+      "createdAt": "2026-08-17T10:19:16.815Z"
+    },
+    {
+      "id": 2,
+      "customerId": 1,
+      "points": 1320,
+      "type": "earned",
+      "description": "E-Waste Credit: Broken Dell XPS Laptop & Monitor",
+      "createdAt": "2026-08-17T10:17:08.523Z"
+    },
+    {
+      "id": 1,
+      "customerId": 1,
+      "points": 2200,
+      "type": "earned",
+      "description": "E-Waste Recovery: iPhone & Laptop scrap credit",
+      "createdAt": "2026-08-15T10:00:00.000Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 15,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "customerPhone": "+1 555-9000",
+      "technicianId": 2,
+      "technicianUserId": 2,
+      "technicianName": "Amitabh Sharma",
+      "technicianAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "itemType": "Dell XPS 15",
+      "category": "Electronics & Phones",
+      "issue": "Battery swelling and trackpad clicking defect.",
+      "pickupDate": "2026-08-25",
+      "address": "100 Broadway, NY",
+      "status": "pending",
+      "estimatedCost": "₹499 - ₹999/hr",
+      "paid": false,
+      "createdAt": "2026-08-17T18:41:31.723Z",
+      "updatedAt": "2026-08-17T18:41:31.723Z",
+      "messages": [],
+      "review": null
+    },
+    {
+      "id": 14,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "customerPhone": "+1 555-9000",
+      "technicianId": 2,
+      "technicianUserId": 2,
+      "technicianName": "Amitabh Sharma",
+      "technicianAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "itemType": "Dell XPS 15",
+      "category": "Electronics & Phones",
+      "issue": "Battery swelling and trackpad clicking defect.",
+      "pickupDate": "2026-08-25",
+      "address": "100 Broadway, NY",
+      "status": "pending",
+      "estimatedCost": "₹499 - ₹999/hr",
+      "paid": false,
+      "createdAt": "2026-08-17T18:36:37.087Z",
+      "updatedAt": "2026-08-17T18:36:37.087Z",
+      "messages": [],
+      "review": null
+    },
+    {
+      "id": 13,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "customerPhone": "+1 555-9000",
+      "technicianId": 2,
+      "technicianUserId": 2,
+      "technicianName": "Amitabh Sharma",
+      "technicianAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "itemType": "Dell XPS 15",
+      "category": "Electronics & Phones",
+      "issue": "Battery swelling and trackpad clicking defect.",
+      "pickupDate": "2026-08-25",
+      "address": "100 Broadway, NY",
+      "status": "cancelled",
+      "estimatedCost": "₹499 - ₹999/hr",
+      "paid": false,
+      "createdAt": "2026-08-17T18:20:24.238Z",
+      "updatedAt": "2026-08-17T18:23:56.294Z",
+      "messages": [],
+      "review": null
+    },
+    {
+      "id": 12,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "customerPhone": "+91 98201 23456",
+      "technicianId": 2,
+      "technicianUserId": 2,
+      "technicianName": "Amitabh Sharma",
+      "technicianAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "itemType": "iPhone 13 Pro",
+      "category": "Electronics & Phones",
+      "issue": "Display glass cracked and green lines on screen",
+      "pickupDate": "2026-08-25",
+      "address": "Bandra West, Mumbai",
+      "status": "completed",
+      "estimatedCost": "₹1,499",
+      "paid": false,
+      "createdAt": "2026-08-17T17:39:59.027Z",
+      "updatedAt": "2026-08-17T17:39:59.073Z",
+      "messages": [
+        {
+          "sender": "technician",
+          "senderName": "Amitabh Sharma",
+          "text": "OEM display part arrived. Starting screen replacement now.",
+          "time": "11:09 pm"
+        }
+      ],
+      "review": {
+        "id": 13,
+        "customerId": 1,
+        "customerName": "Aarav Patel",
+        "rating": 5,
+        "comment": "Super fast OEM display replacement! Looks brand new.",
+        "date": "2026-08-17"
+      }
+    },
+    {
+      "id": 11,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "customerPhone": "+91 98201 23456",
+      "technicianId": 2,
+      "technicianUserId": 2,
+      "technicianName": "Amitabh Sharma",
+      "technicianAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "itemType": "iPhone 13 Pro",
+      "category": "Electronics & Phones",
+      "issue": "Display glass cracked and green lines on screen",
+      "pickupDate": "2026-08-25",
+      "address": "Bandra West, Mumbai",
+      "status": "completed",
+      "estimatedCost": "₹1,499",
+      "paid": false,
+      "createdAt": "2026-08-17T17:37:17.530Z",
+      "updatedAt": "2026-08-17T17:37:17.576Z",
+      "messages": [
+        {
+          "sender": "technician",
+          "senderName": "Amitabh Sharma",
+          "text": "OEM display part arrived. Starting screen replacement now.",
+          "time": "11:07 pm"
+        }
+      ],
+      "review": {
+        "id": 12,
+        "customerId": 1,
+        "customerName": "Aarav Patel",
+        "rating": 5,
+        "comment": "Super fast OEM display replacement! Looks brand new.",
+        "date": "2026-08-17"
+      }
+    },
+    {
+      "id": 10,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "customerPhone": "+91 98201 23456",
+      "technicianId": 2,
+      "technicianUserId": 2,
+      "technicianName": "Amitabh Sharma",
+      "technicianAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "itemType": "iPhone 13 Pro",
+      "category": "Electronics & Phones",
+      "issue": "Display glass cracked and green lines on screen",
+      "pickupDate": "2026-08-25",
+      "address": "Bandra West, Mumbai",
+      "status": "completed",
+      "estimatedCost": "₹1,499",
+      "paid": false,
+      "createdAt": "2026-08-17T17:27:16.377Z",
+      "updatedAt": "2026-08-17T17:27:16.437Z",
+      "messages": [
+        {
+          "sender": "technician",
+          "senderName": "Amitabh Sharma",
+          "text": "OEM display part arrived. Starting screen replacement now.",
+          "time": "10:57 pm"
+        }
+      ],
+      "review": {
+        "id": 11,
+        "customerId": 1,
+        "customerName": "Aarav Patel",
+        "rating": 5,
+        "comment": "Super fast OEM display replacement! Looks brand new.",
+        "date": "2026-08-17"
+      }
+    },
+    {
+      "id": 9,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "customerPhone": "+91 98201 23456",
+      "technicianId": 2,
+      "technicianUserId": 2,
+      "technicianName": "Amitabh Sharma",
+      "technicianAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "itemType": "iPhone 13 Pro",
+      "category": "Electronics & Phones",
+      "issue": "Display glass cracked and green lines on screen",
+      "pickupDate": "2026-08-25",
+      "address": "Bandra West, Mumbai",
+      "status": "completed",
+      "estimatedCost": "₹1,499",
+      "paid": false,
+      "createdAt": "2026-08-17T17:20:15.717Z",
+      "updatedAt": "2026-08-17T17:20:15.821Z",
+      "messages": [
+        {
+          "sender": "technician",
+          "senderName": "Amitabh Sharma",
+          "text": "OEM display part arrived. Starting screen replacement now.",
+          "time": "10:50 pm"
+        }
+      ],
+      "review": {
+        "id": 10,
+        "customerId": 1,
+        "customerName": "Aarav Patel",
+        "rating": 5,
+        "comment": "Super fast OEM display replacement! Looks brand new.",
+        "date": "2026-08-17"
+      }
+    },
+    {
+      "id": 8,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "customerPhone": "+91 98201 23456",
+      "technicianId": 2,
+      "technicianUserId": 2,
+      "technicianName": "Amitabh Sharma",
+      "technicianAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "itemType": "iPhone 13 Pro",
+      "category": "Electronics & Phones",
+      "issue": "Display glass cracked and green lines on screen",
+      "pickupDate": "2026-08-25",
+      "address": "Bandra West, Mumbai",
+      "status": "completed",
+      "estimatedCost": "₹1,499",
+      "paid": false,
+      "createdAt": "2026-08-17T17:07:08.264Z",
+      "updatedAt": "2026-08-17T17:07:08.358Z",
+      "messages": [
+        {
+          "sender": "technician",
+          "senderName": "Amitabh Sharma",
+          "text": "OEM display part arrived. Starting screen replacement now.",
+          "time": "10:37 pm"
+        }
+      ],
+      "review": {
+        "id": 9,
+        "customerId": 1,
+        "customerName": "Aarav Patel",
+        "rating": 5,
+        "comment": "Super fast OEM display replacement! Looks brand new.",
+        "date": "2026-08-17"
+      }
+    },
+    {
+      "id": 7,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "customerPhone": "+91 98201 23456",
+      "technicianId": 2,
+      "technicianUserId": 2,
+      "technicianName": "Amitabh Sharma",
+      "technicianAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "itemType": "iPhone 15.",
+      "category": "Electronics & Phones",
+      "issue": "heat issue",
+      "pickupDate": "2026-08-18",
+      "address": "Mumbai",
+      "status": "cancelled",
+      "estimatedCost": "₹499 - ₹999/hr",
+      "paid": false,
+      "createdAt": "2026-08-17T16:19:17.340Z",
+      "updatedAt": "2026-08-17T16:50:53.701Z",
+      "messages": [],
+      "review": null
+    },
+    {
+      "id": 6,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "customerPhone": "+91 98201 23456",
+      "technicianId": 2,
+      "technicianUserId": 2,
+      "technicianName": "Amitabh Sharma",
+      "technicianAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "itemType": "iPhone 13 Pro",
+      "category": "Electronics & Phones",
+      "issue": "Display glass cracked and green lines on screen",
+      "pickupDate": "2026-08-25",
+      "address": "Bandra West, Mumbai",
+      "status": "completed",
+      "estimatedCost": "₹1,499",
+      "paid": false,
+      "createdAt": "2026-08-17T16:12:17.905Z",
+      "updatedAt": "2026-08-17T16:12:17.989Z",
+      "messages": [
+        {
+          "sender": "technician",
+          "senderName": "Amitabh Sharma",
+          "text": "OEM display part arrived. Starting screen replacement now.",
+          "time": "09:42 pm"
+        }
+      ],
+      "review": {
+        "id": 7,
+        "customerId": 1,
+        "customerName": "Aarav Patel",
+        "rating": 5,
+        "comment": "Super fast OEM display replacement! Looks brand new.",
+        "date": "2026-08-17"
+      }
+    },
+    {
+      "id": 5,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "customerPhone": "+91 98201 23456",
+      "technicianId": 2,
+      "technicianUserId": 2,
+      "technicianName": "Amitabh Sharma",
+      "technicianAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "itemType": "iPhone 13 Pro",
+      "category": "Electronics & Phones",
+      "issue": "Display glass cracked and green lines on screen",
+      "pickupDate": "2026-08-25",
+      "address": "Bandra West, Mumbai",
+      "status": "completed",
+      "estimatedCost": "₹1,499",
+      "paid": false,
+      "createdAt": "2026-08-17T15:37:37.435Z",
+      "updatedAt": "2026-08-17T15:37:37.491Z",
+      "messages": [
+        {
+          "sender": "technician",
+          "senderName": "Amitabh Sharma",
+          "text": "OEM display part arrived. Starting screen replacement now.",
+          "time": "09:07 pm"
+        }
+      ],
+      "review": {
+        "id": 6,
+        "customerId": 1,
+        "customerName": "Aarav Patel",
+        "rating": 5,
+        "comment": "Super fast OEM display replacement! Looks brand new.",
+        "date": "2026-08-17"
+      }
+    },
+    {
+      "id": 4,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "customerPhone": "+1 555-9000",
+      "technicianId": 2,
+      "technicianUserId": 2,
+      "technicianName": "Amitabh Sharma",
+      "technicianAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "itemType": "Dell XPS 15",
+      "category": "Electronics & Phones",
+      "issue": "Battery swelling and trackpad clicking defect.",
+      "pickupDate": "2026-08-25",
+      "address": "100 Broadway, NY",
+      "status": "pending",
+      "estimatedCost": "₹499 - ₹999/hr",
+      "paid": false,
+      "createdAt": "2026-08-17T10:18:45.690Z",
+      "updatedAt": "2026-08-17T10:18:45.690Z",
+      "messages": [],
+      "review": null
+    },
+    {
+      "id": 3,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "customerPhone": "+1 555-9000",
+      "technicianId": 2,
+      "technicianUserId": 2,
+      "technicianName": "Amitabh Sharma",
+      "technicianAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "itemType": "Dell XPS 15",
+      "category": "Electronics & Phones",
+      "issue": "Battery swelling and trackpad clicking defect.",
+      "pickupDate": "2026-08-25",
+      "address": "100 Broadway, NY",
+      "status": "pending",
+      "estimatedCost": "₹499 - ₹999/hr",
+      "paid": false,
+      "createdAt": "2026-08-17T10:17:37.927Z",
+      "updatedAt": "2026-08-17T10:17:37.927Z",
+      "messages": [],
+      "review": null
+    },
+    {
+      "id": 2,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "customerPhone": "+91 98201 23456",
+      "technicianId": 2,
+      "technicianUserId": 2,
+      "technicianName": "Amitabh Sharma",
+      "technicianAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "itemType": "iphone",
+      "category": "Electronics & Phones",
+      "issue": "broken",
+      "pickupDate": "2026-08-18",
+      "address": "Mumbai",
+      "status": "completed",
+      "estimatedCost": "₹499 - ₹999/hr",
+      "paid": false,
+      "createdAt": "2026-08-17T07:18:32.586Z",
+      "updatedAt": "2026-08-17T16:24:49.797Z",
+      "messages": [],
+      "review": null
+    },
+    {
+      "id": 1,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "customerPhone": "+91 98201 23456",
+      "technicianId": 2,
+      "technicianUserId": 2,
+      "technicianName": "Amitabh Sharma (iCare Tech)",
+      "itemType": "iPhone 13 Pro",
+      "category": "Electronics & Phones",
+      "issue": "Cracked front glass screen and unresponsive digitizer.",
+      "pickupDate": "2026-08-20",
+      "urgency": "Standard",
+      "address": "Bandra West, Mumbai, Maharashtra 400050",
+      "status": "completed",
+      "estimatedCost": "₹1,899",
+      "partsCost": "₹1,200",
+      "laborCost": "₹699",
+      "paid": true,
+      "createdAt": "2026-08-15T10:30:00.000Z",
+      "updatedAt": "2026-08-17T07:18:46.967Z",
+      "messages": [
+        {
+          "sender": "customer",
+          "senderName": "Aarav Patel",
+          "text": "Hi Amitabh sir, is original OEM display available?",
+          "time": "2 days ago"
+        },
+        {
+          "sender": "technician",
+          "senderName": "Amitabh Sharma",
+          "text": "Yes Aarav, Grade-A OEM display with 6 months warranty is in stock at Lamington Road lab.",
+          "time": "2 days ago"
+        },
+        {
+          "sender": "customer",
+          "senderName": "Aarav Patel",
+          "text": "ws",
+          "time": "12:34 pm"
+        }
+      ],
+      "review": {
+        "id": 16,
+        "customerId": 1,
+        "customerName": "Aarav Patel",
+        "rating": 5,
+        "comment": "Exceptional diagnostic speed and clean OEM screen install.",
+        "date": "2026-08-17"
+      }
+    }
+  ],
+  "notifications": [
+    {
+      "id": 194,
+      "userId": 8,
+      "title": "Material Transaction Completed",
+      "message": "Material batch #41 transaction is now marked completed.",
+      "referenceId": 16,
+      "date": "2026-08-17T18:41:50.128Z",
+      "read": false
+    },
+    {
+      "id": 193,
+      "userId": 1,
+      "title": "E-Waste Recovery Completed",
+      "message": "Full circular lifecycle for your Broken Dell XPS Laptop & Monitor has completed. Thank you for protecting the planet!",
+      "referenceId": 17,
+      "date": "2026-08-17T18:41:50.126Z",
+      "read": false
+    },
+    {
+      "id": 192,
+      "userId": 8,
+      "title": "Offer Accepted!",
+      "message": "Congratulations! Your offer for 0.4 kg of Electronic Components was accepted.",
+      "referenceId": 16,
+      "date": "2026-08-17T18:41:50.120Z",
+      "read": false
+    },
+    {
+      "id": 191,
+      "userId": 1,
+      "title": "Recycle Buyer Matched!",
+      "message": "A verified buyer (Nagpur Metal Recovery (Demo)) has purchased the recovered materials from your Broken Dell XPS Laptop & Monitor.",
+      "referenceId": 17,
+      "date": "2026-08-17T18:41:50.118Z",
+      "read": false
+    },
+    {
+      "id": 190,
+      "userId": 8,
+      "title": "Offer Placed",
+      "message": "Your offer of ₹600 for Electronic Components has been placed.",
+      "referenceId": 16,
+      "date": "2026-08-17T18:41:50.114Z",
+      "read": false
+    },
+    {
+      "id": 189,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Broken Dell XPS Laptop & Monitor recovery status is now: material_recovered.",
+      "referenceId": 17,
+      "date": "2026-08-17T18:41:50.106Z",
+      "read": false
+    },
+    {
+      "id": 188,
+      "userId": 1,
+      "title": "E-Waste Request Received",
+      "message": "Pickup request for Broken Dell XPS Laptop & Monitor created successfully.",
+      "referenceId": null,
+      "date": "2026-08-17T18:41:50.093Z",
+      "read": false
+    },
+    {
+      "id": 187,
+      "userId": 2,
+      "title": "New Review",
+      "message": "Aarav Patel rated you 5/5.",
+      "referenceId": 1,
+      "date": "2026-08-17T18:41:31.731Z",
+      "read": false
+    },
+    {
+      "id": 186,
+      "userId": 2,
+      "title": "New Request",
+      "message": "Aarav Patel requested repair for Dell XPS 15.",
+      "referenceId": 15,
+      "date": "2026-08-17T18:41:31.723Z",
+      "read": false
+    },
+    {
+      "id": 185,
+      "userId": 2,
+      "title": "New Review",
+      "message": "Aarav Patel rated you 5/5.",
+      "referenceId": 1,
+      "date": "2026-08-17T18:36:37.098Z",
+      "read": false
+    },
+    {
+      "id": 184,
+      "userId": 2,
+      "title": "New Request",
+      "message": "Aarav Patel requested repair for Dell XPS 15.",
+      "referenceId": 14,
+      "date": "2026-08-17T18:36:37.087Z",
+      "read": false
+    },
+    {
+      "id": 183,
+      "userId": 2,
+      "title": "Cancelled",
+      "message": "Booking #13 cancelled.",
+      "referenceId": 13,
+      "date": "2026-08-17T18:23:56.292Z",
+      "read": false
+    },
+    {
+      "id": 182,
+      "userId": 8,
+      "title": "Material Transaction Completed",
+      "message": "Material batch #38 transaction is now marked completed.",
+      "referenceId": 15,
+      "date": "2026-08-17T18:20:38.797Z",
+      "read": false
+    },
+    {
+      "id": 181,
+      "userId": 1,
+      "title": "E-Waste Recovery Completed",
+      "message": "Full circular lifecycle for your Broken Dell XPS Laptop & Monitor has completed. Thank you for protecting the planet!",
+      "referenceId": 16,
+      "date": "2026-08-17T18:20:38.796Z",
+      "read": false
+    },
+    {
+      "id": 180,
+      "userId": 8,
+      "title": "Offer Accepted!",
+      "message": "Congratulations! Your offer for 0.4 kg of Electronic Components was accepted.",
+      "referenceId": 15,
+      "date": "2026-08-17T18:20:38.791Z",
+      "read": false
+    },
+    {
+      "id": 179,
+      "userId": 1,
+      "title": "Recycle Buyer Matched!",
+      "message": "A verified buyer (Nagpur Metal Recovery (Demo)) has purchased the recovered materials from your Broken Dell XPS Laptop & Monitor.",
+      "referenceId": 16,
+      "date": "2026-08-17T18:20:38.790Z",
+      "read": false
+    },
+    {
+      "id": 178,
+      "userId": 8,
+      "title": "Offer Placed",
+      "message": "Your offer of ₹600 for Electronic Components has been placed.",
+      "referenceId": 15,
+      "date": "2026-08-17T18:20:38.786Z",
+      "read": false
+    },
+    {
+      "id": 177,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Broken Dell XPS Laptop & Monitor recovery status is now: material_recovered.",
+      "referenceId": 16,
+      "date": "2026-08-17T18:20:38.776Z",
+      "read": false
+    },
+    {
+      "id": 176,
+      "userId": 1,
+      "title": "E-Waste Request Received",
+      "message": "Pickup request for Broken Dell XPS Laptop & Monitor created successfully.",
+      "referenceId": null,
+      "date": "2026-08-17T18:20:38.768Z",
+      "read": false
+    },
+    {
+      "id": 175,
+      "userId": 2,
+      "title": "New Review",
+      "message": "Aarav Patel rated you 5/5.",
+      "referenceId": 1,
+      "date": "2026-08-17T18:20:24.243Z",
+      "read": false
+    },
+    {
+      "id": 174,
+      "userId": 2,
+      "title": "New Request",
+      "message": "Aarav Patel requested repair for Dell XPS 15.",
+      "referenceId": 13,
+      "date": "2026-08-17T18:20:24.238Z",
+      "read": false
+    },
+    {
+      "id": 173,
+      "userId": 8,
+      "title": "Material Transaction Completed",
+      "message": "Material batch #35 transaction is now marked completed.",
+      "referenceId": 14,
+      "date": "2026-08-17T17:40:05.343Z",
+      "read": false
+    },
+    {
+      "id": 172,
+      "userId": 1,
+      "title": "E-Waste Recovery Completed",
+      "message": "Full circular lifecycle for your Crushed Laptop & Burnt Motherboard has completed. Thank you for protecting the planet!",
+      "referenceId": 15,
+      "date": "2026-08-17T17:40:05.343Z",
+      "read": false
+    },
+    {
+      "id": 171,
+      "userId": 8,
+      "title": "Offer Accepted!",
+      "message": "Congratulations! Your offer for 0.4 kg of Electronic Components was accepted.",
+      "referenceId": 14,
+      "date": "2026-08-17T17:40:05.336Z",
+      "read": false
+    },
+    {
+      "id": 170,
+      "userId": 1,
+      "title": "Recycle Buyer Matched!",
+      "message": "A verified buyer (Nagpur Metal Recovery (Demo)) has purchased the recovered materials from your Crushed Laptop & Burnt Motherboard.",
+      "referenceId": 15,
+      "date": "2026-08-17T17:40:05.335Z",
+      "read": false
+    },
+    {
+      "id": 169,
+      "userId": 8,
+      "title": "Offer Placed",
+      "message": "Your offer of ₹750 for Electronic Components has been placed.",
+      "referenceId": 14,
+      "date": "2026-08-17T17:40:05.328Z",
+      "read": false
+    },
+    {
+      "id": 168,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: completed.",
+      "referenceId": 15,
+      "date": "2026-08-17T17:40:05.307Z",
+      "read": false
+    },
+    {
+      "id": 167,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: buyer_matched.",
+      "referenceId": 15,
+      "date": "2026-08-17T17:40:05.300Z",
+      "read": false
+    },
+    {
+      "id": 166,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: material_recovered.",
+      "referenceId": 15,
+      "date": "2026-08-17T17:40:05.294Z",
+      "read": false
+    },
+    {
+      "id": 165,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: sorting.",
+      "referenceId": 15,
+      "date": "2026-08-17T17:40:05.286Z",
+      "read": false
+    },
+    {
+      "id": 164,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: collected.",
+      "referenceId": 15,
+      "date": "2026-08-17T17:40:05.279Z",
+      "read": false
+    },
+    {
+      "id": 163,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: pickup_scheduled.",
+      "referenceId": 15,
+      "date": "2026-08-17T17:40:05.276Z",
+      "read": false
+    },
+    {
+      "id": 162,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: requested.",
+      "referenceId": 15,
+      "date": "2026-08-17T17:40:05.272Z",
+      "read": false
+    },
+    {
+      "id": 161,
+      "userId": 1,
+      "title": "E-Waste Request Received",
+      "message": "Pickup request for Crushed Laptop & Burnt Motherboard created successfully.",
+      "referenceId": null,
+      "date": "2026-08-17T17:40:05.266Z",
+      "read": false
+    },
+    {
+      "id": 160,
+      "userId": 2,
+      "title": "New Review",
+      "message": "Aarav Patel rated you 5/5.",
+      "referenceId": 12,
+      "date": "2026-08-17T17:39:59.079Z",
+      "read": false
+    },
+    {
+      "id": 159,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now completed.",
+      "referenceId": 12,
+      "date": "2026-08-17T17:39:59.073Z",
+      "read": false
+    },
+    {
+      "id": 158,
+      "userId": 1,
+      "title": "New Message",
+      "message": "Amitabh Sharma: \"OEM display part arrived. Star...\"",
+      "referenceId": 12,
+      "date": "2026-08-17T17:39:59.066Z",
+      "read": false
+    },
+    {
+      "id": 157,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now in-progress.",
+      "referenceId": 12,
+      "date": "2026-08-17T17:39:59.058Z",
+      "read": false
+    },
+    {
+      "id": 156,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now accepted.",
+      "referenceId": 12,
+      "date": "2026-08-17T17:39:59.052Z",
+      "read": false
+    },
+    {
+      "id": 155,
+      "userId": 2,
+      "title": "New Request",
+      "message": "Aarav Patel requested repair for iPhone 13 Pro.",
+      "referenceId": 12,
+      "date": "2026-08-17T17:39:59.027Z",
+      "read": false
+    },
+    {
+      "id": 154,
+      "userId": 8,
+      "title": "Material Transaction Completed",
+      "message": "Material batch #32 transaction is now marked completed.",
+      "referenceId": 13,
+      "date": "2026-08-17T17:37:37.088Z",
+      "read": false
+    },
+    {
+      "id": 153,
+      "userId": 1,
+      "title": "E-Waste Recovery Completed",
+      "message": "Full circular lifecycle for your Crushed Laptop & Burnt Motherboard has completed. Thank you for protecting the planet!",
+      "referenceId": 14,
+      "date": "2026-08-17T17:37:37.087Z",
+      "read": false
+    },
+    {
+      "id": 152,
+      "userId": 8,
+      "title": "Offer Accepted!",
+      "message": "Congratulations! Your offer for 0.4 kg of Electronic Components was accepted.",
+      "referenceId": 13,
+      "date": "2026-08-17T17:37:37.081Z",
+      "read": false
+    },
+    {
+      "id": 151,
+      "userId": 1,
+      "title": "Recycle Buyer Matched!",
+      "message": "A verified buyer (Nagpur Metal Recovery (Demo)) has purchased the recovered materials from your Crushed Laptop & Burnt Motherboard.",
+      "referenceId": 14,
+      "date": "2026-08-17T17:37:37.080Z",
+      "read": false
+    },
+    {
+      "id": 150,
+      "userId": 8,
+      "title": "Offer Placed",
+      "message": "Your offer of ₹750 for Electronic Components has been placed.",
+      "referenceId": 13,
+      "date": "2026-08-17T17:37:37.074Z",
+      "read": false
+    },
+    {
+      "id": 149,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: completed.",
+      "referenceId": 14,
+      "date": "2026-08-17T17:37:37.059Z",
+      "read": false
+    },
+    {
+      "id": 148,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: buyer_matched.",
+      "referenceId": 14,
+      "date": "2026-08-17T17:37:37.052Z",
+      "read": false
+    },
+    {
+      "id": 147,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: material_recovered.",
+      "referenceId": 14,
+      "date": "2026-08-17T17:37:37.046Z",
+      "read": false
+    },
+    {
+      "id": 146,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: sorting.",
+      "referenceId": 14,
+      "date": "2026-08-17T17:37:37.038Z",
+      "read": false
+    },
+    {
+      "id": 145,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: collected.",
+      "referenceId": 14,
+      "date": "2026-08-17T17:37:37.033Z",
+      "read": false
+    },
+    {
+      "id": 144,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: pickup_scheduled.",
+      "referenceId": 14,
+      "date": "2026-08-17T17:37:37.021Z",
+      "read": false
+    },
+    {
+      "id": 143,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: requested.",
+      "referenceId": 14,
+      "date": "2026-08-17T17:37:37.018Z",
+      "read": false
+    },
+    {
+      "id": 142,
+      "userId": 1,
+      "title": "E-Waste Request Received",
+      "message": "Pickup request for Crushed Laptop & Burnt Motherboard created successfully.",
+      "referenceId": null,
+      "date": "2026-08-17T17:37:37.013Z",
+      "read": false
+    },
+    {
+      "id": 141,
+      "userId": 2,
+      "title": "New Review",
+      "message": "Aarav Patel rated you 5/5.",
+      "referenceId": 11,
+      "date": "2026-08-17T17:37:17.590Z",
+      "read": false
+    },
+    {
+      "id": 140,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now completed.",
+      "referenceId": 11,
+      "date": "2026-08-17T17:37:17.576Z",
+      "read": false
+    },
+    {
+      "id": 139,
+      "userId": 1,
+      "title": "New Message",
+      "message": "Amitabh Sharma: \"OEM display part arrived. Star...\"",
+      "referenceId": 11,
+      "date": "2026-08-17T17:37:17.569Z",
+      "read": false
+    },
+    {
+      "id": 138,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now in-progress.",
+      "referenceId": 11,
+      "date": "2026-08-17T17:37:17.562Z",
+      "read": false
+    },
+    {
+      "id": 137,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now accepted.",
+      "referenceId": 11,
+      "date": "2026-08-17T17:37:17.556Z",
+      "read": false
+    },
+    {
+      "id": 136,
+      "userId": 2,
+      "title": "New Request",
+      "message": "Aarav Patel requested repair for iPhone 13 Pro.",
+      "referenceId": 11,
+      "date": "2026-08-17T17:37:17.530Z",
+      "read": false
+    },
+    {
+      "id": 135,
+      "userId": 8,
+      "title": "Material Transaction Completed",
+      "message": "Material batch #29 transaction is now marked completed.",
+      "referenceId": 12,
+      "date": "2026-08-17T17:27:34.509Z",
+      "read": false
+    },
+    {
+      "id": 134,
+      "userId": 1,
+      "title": "E-Waste Recovery Completed",
+      "message": "Full circular lifecycle for your Crushed Laptop & Burnt Motherboard has completed. Thank you for protecting the planet!",
+      "referenceId": 13,
+      "date": "2026-08-17T17:27:34.508Z",
+      "read": false
+    },
+    {
+      "id": 133,
+      "userId": 8,
+      "title": "Offer Accepted!",
+      "message": "Congratulations! Your offer for 0.4 kg of Electronic Components was accepted.",
+      "referenceId": 12,
+      "date": "2026-08-17T17:27:34.495Z",
+      "read": false
+    },
+    {
+      "id": 132,
+      "userId": 1,
+      "title": "Recycle Buyer Matched!",
+      "message": "A verified buyer (Nagpur Metal Recovery (Demo)) has purchased the recovered materials from your Crushed Laptop & Burnt Motherboard.",
+      "referenceId": 13,
+      "date": "2026-08-17T17:27:34.494Z",
+      "read": false
+    },
+    {
+      "id": 131,
+      "userId": 8,
+      "title": "Offer Placed",
+      "message": "Your offer of ₹750 for Electronic Components has been placed.",
+      "referenceId": 12,
+      "date": "2026-08-17T17:27:34.478Z",
+      "read": false
+    },
+    {
+      "id": 130,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: completed.",
+      "referenceId": 13,
+      "date": "2026-08-17T17:27:34.447Z",
+      "read": false
+    },
+    {
+      "id": 129,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: buyer_matched.",
+      "referenceId": 13,
+      "date": "2026-08-17T17:27:34.433Z",
+      "read": false
+    },
+    {
+      "id": 128,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: material_recovered.",
+      "referenceId": 13,
+      "date": "2026-08-17T17:27:34.418Z",
+      "read": false
+    },
+    {
+      "id": 127,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: sorting.",
+      "referenceId": 13,
+      "date": "2026-08-17T17:27:34.402Z",
+      "read": false
+    },
+    {
+      "id": 126,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: collected.",
+      "referenceId": 13,
+      "date": "2026-08-17T17:27:34.387Z",
+      "read": false
+    },
+    {
+      "id": 125,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: pickup_scheduled.",
+      "referenceId": 13,
+      "date": "2026-08-17T17:27:34.371Z",
+      "read": false
+    },
+    {
+      "id": 124,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: requested.",
+      "referenceId": 13,
+      "date": "2026-08-17T17:27:34.356Z",
+      "read": false
+    },
+    {
+      "id": 123,
+      "userId": 1,
+      "title": "E-Waste Request Received",
+      "message": "Pickup request for Crushed Laptop & Burnt Motherboard created successfully.",
+      "referenceId": null,
+      "date": "2026-08-17T17:27:34.337Z",
+      "read": false
+    },
+    {
+      "id": 122,
+      "userId": 2,
+      "title": "New Review",
+      "message": "Aarav Patel rated you 5/5.",
+      "referenceId": 10,
+      "date": "2026-08-17T17:27:16.463Z",
+      "read": false
+    },
+    {
+      "id": 121,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now completed.",
+      "referenceId": 10,
+      "date": "2026-08-17T17:27:16.436Z",
+      "read": false
+    },
+    {
+      "id": 120,
+      "userId": 1,
+      "title": "New Message",
+      "message": "Amitabh Sharma: \"OEM display part arrived. Star...\"",
+      "referenceId": 10,
+      "date": "2026-08-17T17:27:16.433Z",
+      "read": false
+    },
+    {
+      "id": 119,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now in-progress.",
+      "referenceId": 10,
+      "date": "2026-08-17T17:27:16.417Z",
+      "read": false
+    },
+    {
+      "id": 118,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now accepted.",
+      "referenceId": 10,
+      "date": "2026-08-17T17:27:16.405Z",
+      "read": false
+    },
+    {
+      "id": 117,
+      "userId": 2,
+      "title": "New Request",
+      "message": "Aarav Patel requested repair for iPhone 13 Pro.",
+      "referenceId": 10,
+      "date": "2026-08-17T17:27:16.377Z",
+      "read": false
+    },
+    {
+      "id": 116,
+      "userId": 8,
+      "title": "Material Transaction Completed",
+      "message": "Material batch #26 transaction is now marked completed.",
+      "referenceId": 11,
+      "date": "2026-08-17T17:20:26.604Z",
+      "read": false
+    },
+    {
+      "id": 115,
+      "userId": 1,
+      "title": "E-Waste Recovery Completed",
+      "message": "Full circular lifecycle for your Crushed Laptop & Burnt Motherboard has completed. Thank you for protecting the planet!",
+      "referenceId": 12,
+      "date": "2026-08-17T17:20:26.603Z",
+      "read": false
+    },
+    {
+      "id": 114,
+      "userId": 8,
+      "title": "Offer Accepted!",
+      "message": "Congratulations! Your offer for 0.4 kg of Electronic Components was accepted.",
+      "referenceId": 11,
+      "date": "2026-08-17T17:20:26.589Z",
+      "read": false
+    },
+    {
+      "id": 113,
+      "userId": 1,
+      "title": "Recycle Buyer Matched!",
+      "message": "A verified buyer (Nagpur Metal Recovery (Demo)) has purchased the recovered materials from your Crushed Laptop & Burnt Motherboard.",
+      "referenceId": 12,
+      "date": "2026-08-17T17:20:26.588Z",
+      "read": false
+    },
+    {
+      "id": 112,
+      "userId": 8,
+      "title": "Offer Placed",
+      "message": "Your offer of ₹750 for Electronic Components has been placed.",
+      "referenceId": 11,
+      "date": "2026-08-17T17:20:26.572Z",
+      "read": false
+    },
+    {
+      "id": 111,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: completed.",
+      "referenceId": 12,
+      "date": "2026-08-17T17:20:26.542Z",
+      "read": false
+    },
+    {
+      "id": 110,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: buyer_matched.",
+      "referenceId": 12,
+      "date": "2026-08-17T17:20:26.527Z",
+      "read": false
+    },
+    {
+      "id": 109,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: material_recovered.",
+      "referenceId": 12,
+      "date": "2026-08-17T17:20:26.512Z",
+      "read": false
+    },
+    {
+      "id": 108,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: sorting.",
+      "referenceId": 12,
+      "date": "2026-08-17T17:20:26.496Z",
+      "read": false
+    },
+    {
+      "id": 107,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: collected.",
+      "referenceId": 12,
+      "date": "2026-08-17T17:20:26.481Z",
+      "read": false
+    },
+    {
+      "id": 106,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: pickup_scheduled.",
+      "referenceId": 12,
+      "date": "2026-08-17T17:20:26.465Z",
+      "read": false
+    },
+    {
+      "id": 105,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: requested.",
+      "referenceId": 12,
+      "date": "2026-08-17T17:20:26.451Z",
+      "read": false
+    },
+    {
+      "id": 104,
+      "userId": 1,
+      "title": "E-Waste Request Received",
+      "message": "Pickup request for Crushed Laptop & Burnt Motherboard created successfully.",
+      "referenceId": null,
+      "date": "2026-08-17T17:20:26.444Z",
+      "read": false
+    },
+    {
+      "id": 103,
+      "userId": 2,
+      "title": "New Review",
+      "message": "Aarav Patel rated you 5/5.",
+      "referenceId": 9,
+      "date": "2026-08-17T17:20:15.850Z",
+      "read": false
+    },
+    {
+      "id": 102,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now completed.",
+      "referenceId": 9,
+      "date": "2026-08-17T17:20:15.820Z",
+      "read": false
+    },
+    {
+      "id": 101,
+      "userId": 1,
+      "title": "New Message",
+      "message": "Amitabh Sharma: \"OEM display part arrived. Star...\"",
+      "referenceId": 9,
+      "date": "2026-08-17T17:20:15.805Z",
+      "read": false
+    },
+    {
+      "id": 100,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now in-progress.",
+      "referenceId": 9,
+      "date": "2026-08-17T17:20:15.789Z",
+      "read": false
+    },
+    {
+      "id": 99,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now accepted.",
+      "referenceId": 9,
+      "date": "2026-08-17T17:20:15.773Z",
+      "read": false
+    },
+    {
+      "id": 98,
+      "userId": 2,
+      "title": "New Request",
+      "message": "Aarav Patel requested repair for iPhone 13 Pro.",
+      "referenceId": 9,
+      "date": "2026-08-17T17:20:15.717Z",
+      "read": false
+    },
+    {
+      "id": 97,
+      "userId": 8,
+      "title": "Material Transaction Completed",
+      "message": "Material batch #23 transaction is now marked completed.",
+      "referenceId": 10,
+      "date": "2026-08-17T17:08:01.106Z",
+      "read": false
+    },
+    {
+      "id": 96,
+      "userId": 1,
+      "title": "E-Waste Recovery Completed",
+      "message": "Full circular lifecycle for your Crushed Laptop & Burnt Motherboard has completed. Thank you for protecting the planet!",
+      "referenceId": 11,
+      "date": "2026-08-17T17:08:01.105Z",
+      "read": false
+    },
+    {
+      "id": 95,
+      "userId": 8,
+      "title": "Offer Accepted!",
+      "message": "Congratulations! Your offer for 0.4 kg of Electronic Components was accepted.",
+      "referenceId": 10,
+      "date": "2026-08-17T17:08:01.095Z",
+      "read": false
+    },
+    {
+      "id": 94,
+      "userId": 1,
+      "title": "Recycle Buyer Matched!",
+      "message": "A verified buyer (Nagpur Metal Recovery (Demo)) has purchased the recovered materials from your Crushed Laptop & Burnt Motherboard.",
+      "referenceId": 11,
+      "date": "2026-08-17T17:08:01.093Z",
+      "read": false
+    },
+    {
+      "id": 93,
+      "userId": 8,
+      "title": "Offer Placed",
+      "message": "Your offer of ₹750 for Electronic Components has been placed.",
+      "referenceId": 10,
+      "date": "2026-08-17T17:08:01.089Z",
+      "read": false
+    },
+    {
+      "id": 92,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: completed.",
+      "referenceId": 11,
+      "date": "2026-08-17T17:08:01.049Z",
+      "read": false
+    },
+    {
+      "id": 91,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: buyer_matched.",
+      "referenceId": 11,
+      "date": "2026-08-17T17:08:01.043Z",
+      "read": false
+    },
+    {
+      "id": 90,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: material_recovered.",
+      "referenceId": 11,
+      "date": "2026-08-17T17:08:01.030Z",
+      "read": false
+    },
+    {
+      "id": 89,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: sorting.",
+      "referenceId": 11,
+      "date": "2026-08-17T17:08:01.012Z",
+      "read": false
+    },
+    {
+      "id": 88,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: collected.",
+      "referenceId": 11,
+      "date": "2026-08-17T17:08:00.998Z",
+      "read": false
+    },
+    {
+      "id": 87,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: pickup_scheduled.",
+      "referenceId": 11,
+      "date": "2026-08-17T17:08:00.982Z",
+      "read": false
+    },
+    {
+      "id": 86,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: requested.",
+      "referenceId": 11,
+      "date": "2026-08-17T17:08:00.972Z",
+      "read": false
+    },
+    {
+      "id": 85,
+      "userId": 1,
+      "title": "E-Waste Request Received",
+      "message": "Pickup request for Crushed Laptop & Burnt Motherboard created successfully.",
+      "referenceId": null,
+      "date": "2026-08-17T17:08:00.965Z",
+      "read": false
+    },
+    {
+      "id": 84,
+      "userId": 2,
+      "title": "New Review",
+      "message": "Aarav Patel rated you 5/5.",
+      "referenceId": 8,
+      "date": "2026-08-17T17:07:08.387Z",
+      "read": false
+    },
+    {
+      "id": 83,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now completed.",
+      "referenceId": 8,
+      "date": "2026-08-17T17:07:08.357Z",
+      "read": false
+    },
+    {
+      "id": 82,
+      "userId": 1,
+      "title": "New Message",
+      "message": "Amitabh Sharma: \"OEM display part arrived. Star...\"",
+      "referenceId": 8,
+      "date": "2026-08-17T17:07:08.345Z",
+      "read": false
+    },
+    {
+      "id": 81,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now in-progress.",
+      "referenceId": 8,
+      "date": "2026-08-17T17:07:08.327Z",
+      "read": false
+    },
+    {
+      "id": 80,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now accepted.",
+      "referenceId": 8,
+      "date": "2026-08-17T17:07:08.312Z",
+      "read": false
+    },
+    {
+      "id": 79,
+      "userId": 2,
+      "title": "New Request",
+      "message": "Aarav Patel requested repair for iPhone 13 Pro.",
+      "referenceId": 8,
+      "date": "2026-08-17T17:07:08.264Z",
+      "read": false
+    },
+    {
+      "id": 78,
+      "userId": 2,
+      "title": "Cancelled",
+      "message": "Booking #7 cancelled.",
+      "referenceId": 7,
+      "date": "2026-08-17T16:50:53.699Z",
+      "read": false
+    },
+    {
+      "id": 77,
+      "userId": 8,
+      "title": "Offer Placed",
+      "message": "Your offer of ₹240 for Aluminium has been placed.",
+      "referenceId": 9,
+      "date": "2026-08-17T16:32:13.669Z",
+      "read": true
+    },
+    {
+      "id": 76,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now completed.",
+      "referenceId": 2,
+      "date": "2026-08-17T16:24:49.795Z",
+      "read": false
+    },
+    {
+      "id": 75,
+      "userId": 2,
+      "title": "New Request",
+      "message": "Aarav Patel requested repair for iPhone 15..",
+      "referenceId": 7,
+      "date": "2026-08-17T16:19:17.340Z",
+      "read": false
+    },
+    {
+      "id": 74,
+      "userId": 8,
+      "title": "Material Transaction Completed",
+      "message": "Material batch #20 transaction is now marked completed.",
+      "referenceId": 8,
+      "date": "2026-08-17T16:13:12.622Z",
+      "read": true
+    },
+    {
+      "id": 73,
+      "userId": 1,
+      "title": "E-Waste Recovery Completed",
+      "message": "Full circular lifecycle for your Crushed Laptop & Burnt Motherboard has completed. Thank you for protecting the planet!",
+      "referenceId": 10,
+      "date": "2026-08-17T16:13:12.621Z",
+      "read": false
+    },
+    {
+      "id": 72,
+      "userId": 8,
+      "title": "Offer Accepted!",
+      "message": "Congratulations! Your offer for 0.4 kg of Electronic Components was accepted.",
+      "referenceId": 8,
+      "date": "2026-08-17T16:13:12.606Z",
+      "read": true
+    },
+    {
+      "id": 71,
+      "userId": 1,
+      "title": "Recycle Buyer Matched!",
+      "message": "A verified buyer (Nagpur Metal Recovery (Demo)) has purchased the recovered materials from your Crushed Laptop & Burnt Motherboard.",
+      "referenceId": 10,
+      "date": "2026-08-17T16:13:12.605Z",
+      "read": false
+    },
+    {
+      "id": 70,
+      "userId": 8,
+      "title": "Offer Placed",
+      "message": "Your offer of ₹750 for Electronic Components has been placed.",
+      "referenceId": 8,
+      "date": "2026-08-17T16:13:12.591Z",
+      "read": true
+    },
+    {
+      "id": 69,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: completed.",
+      "referenceId": 10,
+      "date": "2026-08-17T16:13:12.560Z",
+      "read": false
+    },
+    {
+      "id": 68,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: buyer_matched.",
+      "referenceId": 10,
+      "date": "2026-08-17T16:13:12.544Z",
+      "read": false
+    },
+    {
+      "id": 67,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: material_recovered.",
+      "referenceId": 10,
+      "date": "2026-08-17T16:13:12.531Z",
+      "read": false
+    },
+    {
+      "id": 66,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: sorting.",
+      "referenceId": 10,
+      "date": "2026-08-17T16:13:12.513Z",
+      "read": false
+    },
+    {
+      "id": 65,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: collected.",
+      "referenceId": 10,
+      "date": "2026-08-17T16:13:12.498Z",
+      "read": false
+    },
+    {
+      "id": 64,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: pickup_scheduled.",
+      "referenceId": 10,
+      "date": "2026-08-17T16:13:12.482Z",
+      "read": false
+    },
+    {
+      "id": 63,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: requested.",
+      "referenceId": 10,
+      "date": "2026-08-17T16:13:12.468Z",
+      "read": false
+    },
+    {
+      "id": 62,
+      "userId": 1,
+      "title": "E-Waste Request Received",
+      "message": "Pickup request for Crushed Laptop & Burnt Motherboard created successfully.",
+      "referenceId": null,
+      "date": "2026-08-17T16:13:12.450Z",
+      "read": false
+    },
+    {
+      "id": 61,
+      "userId": 2,
+      "title": "New Review",
+      "message": "Aarav Patel rated you 5/5.",
+      "referenceId": 6,
+      "date": "2026-08-17T16:12:18.001Z",
+      "read": false
+    },
+    {
+      "id": 60,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now completed.",
+      "referenceId": 6,
+      "date": "2026-08-17T16:12:17.988Z",
+      "read": false
+    },
+    {
+      "id": 59,
+      "userId": 1,
+      "title": "New Message",
+      "message": "Amitabh Sharma: \"OEM display part arrived. Star...\"",
+      "referenceId": 6,
+      "date": "2026-08-17T16:12:17.975Z",
+      "read": false
+    },
+    {
+      "id": 58,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now in-progress.",
+      "referenceId": 6,
+      "date": "2026-08-17T16:12:17.940Z",
+      "read": false
+    },
+    {
+      "id": 57,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now accepted.",
+      "referenceId": 6,
+      "date": "2026-08-17T16:12:17.933Z",
+      "read": false
+    },
+    {
+      "id": 56,
+      "userId": 2,
+      "title": "New Request",
+      "message": "Aarav Patel requested repair for iPhone 13 Pro.",
+      "referenceId": 6,
+      "date": "2026-08-17T16:12:17.905Z",
+      "read": false
+    },
+    {
+      "id": 55,
+      "userId": 8,
+      "title": "Material Transaction Completed",
+      "message": "Material batch #17 transaction is now marked completed.",
+      "referenceId": 7,
+      "date": "2026-08-17T15:37:50.015Z",
+      "read": true
+    },
+    {
+      "id": 54,
+      "userId": 1,
+      "title": "E-Waste Recovery Completed",
+      "message": "Full circular lifecycle for your Crushed Laptop & Burnt Motherboard has completed. Thank you for protecting the planet!",
+      "referenceId": 9,
+      "date": "2026-08-17T15:37:50.013Z",
+      "read": true
+    },
+    {
+      "id": 53,
+      "userId": 8,
+      "title": "Offer Accepted!",
+      "message": "Congratulations! Your offer for 0.4 kg of Electronic Components was accepted.",
+      "referenceId": 7,
+      "date": "2026-08-17T15:37:50.003Z",
+      "read": true
+    },
+    {
+      "id": 52,
+      "userId": 1,
+      "title": "Recycle Buyer Matched!",
+      "message": "A verified buyer (Nagpur Metal Recovery (Demo)) has purchased the recovered materials from your Crushed Laptop & Burnt Motherboard.",
+      "referenceId": 9,
+      "date": "2026-08-17T15:37:50.000Z",
+      "read": true
+    },
+    {
+      "id": 51,
+      "userId": 8,
+      "title": "Offer Placed",
+      "message": "Your offer of ₹750 for Electronic Components has been placed.",
+      "referenceId": 7,
+      "date": "2026-08-17T15:37:49.991Z",
+      "read": true
+    },
+    {
+      "id": 50,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: completed.",
+      "referenceId": 9,
+      "date": "2026-08-17T15:37:49.962Z",
+      "read": true
+    },
+    {
+      "id": 49,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: buyer_matched.",
+      "referenceId": 9,
+      "date": "2026-08-17T15:37:49.953Z",
+      "read": true
+    },
+    {
+      "id": 48,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: material_recovered.",
+      "referenceId": 9,
+      "date": "2026-08-17T15:37:49.944Z",
+      "read": true
+    },
+    {
+      "id": 47,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: sorting.",
+      "referenceId": 9,
+      "date": "2026-08-17T15:37:49.928Z",
+      "read": true
+    },
+    {
+      "id": 46,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: collected.",
+      "referenceId": 9,
+      "date": "2026-08-17T15:37:49.917Z",
+      "read": true
+    },
+    {
+      "id": 45,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: pickup_scheduled.",
+      "referenceId": 9,
+      "date": "2026-08-17T15:37:49.904Z",
+      "read": true
+    },
+    {
+      "id": 44,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Crushed Laptop & Burnt Motherboard recovery status is now: requested.",
+      "referenceId": 9,
+      "date": "2026-08-17T15:37:49.898Z",
+      "read": true
+    },
+    {
+      "id": 43,
+      "userId": 1,
+      "title": "E-Waste Request Received",
+      "message": "Pickup request for Crushed Laptop & Burnt Motherboard created successfully.",
+      "referenceId": null,
+      "date": "2026-08-17T15:37:49.885Z",
+      "read": true
+    },
+    {
+      "id": 42,
+      "userId": 2,
+      "title": "New Review",
+      "message": "Aarav Patel rated you 5/5.",
+      "referenceId": 5,
+      "date": "2026-08-17T15:37:37.505Z",
+      "read": false
+    },
+    {
+      "id": 41,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now completed.",
+      "referenceId": 5,
+      "date": "2026-08-17T15:37:37.490Z",
+      "read": true
+    },
+    {
+      "id": 40,
+      "userId": 1,
+      "title": "New Message",
+      "message": "Amitabh Sharma: \"OEM display part arrived. Star...\"",
+      "referenceId": 5,
+      "date": "2026-08-17T15:37:37.480Z",
+      "read": true
+    },
+    {
+      "id": 39,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now in-progress.",
+      "referenceId": 5,
+      "date": "2026-08-17T15:37:37.463Z",
+      "read": true
+    },
+    {
+      "id": 38,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now accepted.",
+      "referenceId": 5,
+      "date": "2026-08-17T15:37:37.453Z",
+      "read": true
+    },
+    {
+      "id": 37,
+      "userId": 2,
+      "title": "New Request",
+      "message": "Aarav Patel requested repair for iPhone 13 Pro.",
+      "referenceId": 5,
+      "date": "2026-08-17T15:37:37.435Z",
+      "read": false
+    },
+    {
+      "id": 36,
+      "userId": 8,
+      "title": "Material Transaction Completed",
+      "message": "Material batch #14 transaction is now marked completed.",
+      "referenceId": 6,
+      "date": "2026-08-17T10:40:24.998Z",
+      "read": true
+    },
+    {
+      "id": 35,
+      "userId": 1,
+      "title": "E-Waste Recovery Completed",
+      "message": "Full circular lifecycle for your Broken Dell XPS Laptop & Monitor has completed. Thank you for protecting the planet!",
+      "referenceId": 8,
+      "date": "2026-08-17T10:40:24.997Z",
+      "read": true
+    },
+    {
+      "id": 34,
+      "userId": 8,
+      "title": "Offer Accepted!",
+      "message": "Congratulations! Your offer for 0.4 kg of Electronic Components was accepted.",
+      "referenceId": 6,
+      "date": "2026-08-17T10:40:24.994Z",
+      "read": true
+    },
+    {
+      "id": 33,
+      "userId": 1,
+      "title": "Recycle Buyer Matched!",
+      "message": "A verified buyer (Nagpur Metal Recovery (Demo)) has purchased the recovered materials from your Broken Dell XPS Laptop & Monitor.",
+      "referenceId": 8,
+      "date": "2026-08-17T10:40:24.993Z",
+      "read": true
+    },
+    {
+      "id": 32,
+      "userId": 8,
+      "title": "Offer Placed",
+      "message": "Your offer of ₹600 for Electronic Components has been placed.",
+      "referenceId": 6,
+      "date": "2026-08-17T10:40:24.990Z",
+      "read": true
+    },
+    {
+      "id": 31,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Broken Dell XPS Laptop & Monitor recovery status is now: material_recovered.",
+      "referenceId": 8,
+      "date": "2026-08-17T10:40:24.984Z",
+      "read": true
+    },
+    {
+      "id": 30,
+      "userId": 1,
+      "title": "E-Waste Request Received",
+      "message": "Pickup request for Broken Dell XPS Laptop & Monitor created successfully.",
+      "referenceId": null,
+      "date": "2026-08-17T10:40:24.980Z",
+      "read": true
+    },
+    {
+      "id": 29,
+      "userId": 1,
+      "title": "E-Waste Request Received",
+      "message": "Pickup request for Old Electronic Device created successfully.",
+      "referenceId": null,
+      "date": "2026-08-17T10:27:33.723Z",
+      "read": true
+    },
+    {
+      "id": 28,
+      "userId": 2,
+      "title": "Payment Received",
+      "message": "Aarav Patel settled payment.",
+      "referenceId": 1,
+      "date": "2026-08-17T10:26:21.990Z",
+      "read": false
+    },
+    {
+      "id": 27,
+      "userId": 8,
+      "title": "Material Transaction Completed",
+      "message": "Material batch #11 transaction is now marked completed.",
+      "referenceId": 5,
+      "date": "2026-08-17T10:19:16.832Z",
+      "read": true
+    },
+    {
+      "id": 26,
+      "userId": 1,
+      "title": "E-Waste Recovery Completed",
+      "message": "Full circular lifecycle for your Broken Dell XPS Laptop & Monitor has completed. Thank you for protecting the planet!",
+      "referenceId": 6,
+      "date": "2026-08-17T10:19:16.831Z",
+      "read": true
+    },
+    {
+      "id": 25,
+      "userId": 8,
+      "title": "Offer Accepted!",
+      "message": "Congratulations! Your offer for 0.4 kg of Electronic Components was accepted.",
+      "referenceId": 5,
+      "date": "2026-08-17T10:19:16.828Z",
+      "read": true
+    },
+    {
+      "id": 24,
+      "userId": 1,
+      "title": "Recycle Buyer Matched!",
+      "message": "A verified buyer (Nagpur Metal Recovery (Demo)) has purchased the recovered materials from your Broken Dell XPS Laptop & Monitor.",
+      "referenceId": 6,
+      "date": "2026-08-17T10:19:16.827Z",
+      "read": true
+    },
+    {
+      "id": 23,
+      "userId": 8,
+      "title": "Offer Placed",
+      "message": "Your offer of ₹600 for Electronic Components has been placed.",
+      "referenceId": 5,
+      "date": "2026-08-17T10:19:16.823Z",
+      "read": true
+    },
+    {
+      "id": 22,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Broken Dell XPS Laptop & Monitor recovery status is now: material_recovered.",
+      "referenceId": 6,
+      "date": "2026-08-17T10:19:16.819Z",
+      "read": true
+    },
+    {
+      "id": 21,
+      "userId": 1,
+      "title": "E-Waste Request Received",
+      "message": "Pickup request for Broken Dell XPS Laptop & Monitor created successfully.",
+      "referenceId": null,
+      "date": "2026-08-17T10:19:16.815Z",
+      "read": true
+    },
+    {
+      "id": 20,
+      "userId": 2,
+      "title": "New Review",
+      "message": "Aarav Patel rated you 5/5.",
+      "referenceId": 1,
+      "date": "2026-08-17T10:18:45.694Z",
+      "read": false
+    },
+    {
+      "id": 19,
+      "userId": 2,
+      "title": "New Request",
+      "message": "Aarav Patel requested repair for Dell XPS 15.",
+      "referenceId": 4,
+      "date": "2026-08-17T10:18:45.690Z",
+      "read": false
+    },
+    {
+      "id": 18,
+      "userId": 2,
+      "title": "New Review",
+      "message": "Aarav Patel rated you 5/5.",
+      "referenceId": 1,
+      "date": "2026-08-17T10:17:37.931Z",
+      "read": false
+    },
+    {
+      "id": 17,
+      "userId": 2,
+      "title": "New Request",
+      "message": "Aarav Patel requested repair for Dell XPS 15.",
+      "referenceId": 3,
+      "date": "2026-08-17T10:17:37.927Z",
+      "read": false
+    },
+    {
+      "id": 16,
+      "userId": 8,
+      "title": "Material Transaction Completed",
+      "message": "Material batch #8 transaction is now marked completed.",
+      "referenceId": 4,
+      "date": "2026-08-17T10:17:08.547Z",
+      "read": true
+    },
+    {
+      "id": 15,
+      "userId": 1,
+      "title": "E-Waste Recovery Completed",
+      "message": "Full circular lifecycle for your Broken Dell XPS Laptop & Monitor has completed. Thank you for protecting the planet!",
+      "referenceId": 5,
+      "date": "2026-08-17T10:17:08.546Z",
+      "read": true
+    },
+    {
+      "id": 14,
+      "userId": 8,
+      "title": "Offer Accepted!",
+      "message": "Congratulations! Your offer for 0.4 kg of Electronic Components was accepted.",
+      "referenceId": 4,
+      "date": "2026-08-17T10:17:08.543Z",
+      "read": true
+    },
+    {
+      "id": 13,
+      "userId": 1,
+      "title": "Recycle Buyer Matched!",
+      "message": "A verified buyer (Nagpur Metal Recovery (Demo)) has purchased the recovered materials from your Broken Dell XPS Laptop & Monitor.",
+      "referenceId": 5,
+      "date": "2026-08-17T10:17:08.541Z",
+      "read": true
+    },
+    {
+      "id": 12,
+      "userId": 8,
+      "title": "Offer Placed",
+      "message": "Your offer of ₹600 for Electronic Components has been placed.",
+      "referenceId": 4,
+      "date": "2026-08-17T10:17:08.537Z",
+      "read": true
+    },
+    {
+      "id": 11,
+      "userId": 1,
+      "title": "E-Waste Status Update",
+      "message": "Your Broken Dell XPS Laptop & Monitor recovery status is now: material_recovered.",
+      "referenceId": 5,
+      "date": "2026-08-17T10:17:08.530Z",
+      "read": true
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "title": "E-Waste Request Received",
+      "message": "Pickup request for Broken Dell XPS Laptop & Monitor created successfully.",
+      "referenceId": null,
+      "date": "2026-08-17T10:17:08.523Z",
+      "read": true
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now in-progress.",
+      "bookingId": 2,
+      "date": "2026-08-17T07:34:30.977Z",
+      "read": true
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "title": "Pickup Scheduled",
+      "message": "Pickup for iphone scheduled.",
+      "bookingId": null,
+      "date": "2026-08-17T07:25:34.848Z",
+      "read": true
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "title": "Pickup Scheduled",
+      "message": "Pickup for iphone scheduled.",
+      "bookingId": null,
+      "date": "2026-08-17T07:19:08.433Z",
+      "read": true
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now accepted.",
+      "bookingId": 2,
+      "date": "2026-08-17T07:18:49.229Z",
+      "read": true
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "title": "Status Update",
+      "message": "Status is now completed.",
+      "bookingId": 1,
+      "date": "2026-08-17T07:18:46.965Z",
+      "read": true
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "title": "New Request",
+      "message": "Aarav Patel requested repair for iphone.",
+      "bookingId": 2,
+      "date": "2026-08-17T07:18:32.587Z",
+      "read": true
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "title": "Pickup Scheduled",
+      "message": "Pickup for i phone  scheduled.",
+      "bookingId": null,
+      "date": "2026-08-17T07:12:36.539Z",
+      "read": true
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Pickup Scheduled",
+      "message": "Pickup for i phone  scheduled.",
+      "bookingId": null,
+      "date": "2026-08-17T07:12:33.780Z",
+      "read": true
+    },
+    {
+      "id": 1,
+      "userId": 2,
+      "title": "New Message",
+      "message": "Aarav Patel: \"ws...\"",
+      "bookingId": 1,
+      "date": "2026-08-17T07:04:04.073Z",
+      "read": true
+    }
+  ],
+  "recycleRequests": [
+    {
+      "id": 17,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "estimatedPayout": "₹1,200",
+      "payoutType": "points",
+      "rewardPoints": 1320,
+      "pickupDate": "2026-08-22",
+      "pickupAddress": "Hingna Road, Nagpur",
+      "status": "completed",
+      "recoveredMaterialsList": [
+        "Copper (0.8 kg)",
+        "Aluminium (1.2 kg)",
+        "Electronic Components (0.4 kg)"
+      ],
+      "matchedBuyerName": "Nagpur Metal Recovery (Demo)",
+      "createdAt": "2026-08-17T18:41:50.093Z",
+      "updatedAt": "2026-08-17T18:41:50.103Z"
+    },
+    {
+      "id": 16,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "estimatedPayout": "₹1,200",
+      "payoutType": "points",
+      "rewardPoints": 1320,
+      "pickupDate": "2026-08-22",
+      "pickupAddress": "Hingna Road, Nagpur",
+      "status": "completed",
+      "recoveredMaterialsList": [
+        "Copper (0.8 kg)",
+        "Aluminium (1.2 kg)",
+        "Electronic Components (0.4 kg)"
+      ],
+      "matchedBuyerName": "Nagpur Metal Recovery (Demo)",
+      "createdAt": "2026-08-17T18:20:38.768Z",
+      "updatedAt": "2026-08-17T18:20:38.774Z"
+    },
+    {
+      "id": 15,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "estimatedPayout": "₹1,500",
+      "payoutType": "points",
+      "rewardPoints": 1650,
+      "pickupDate": "2026-08-28",
+      "pickupAddress": "MIDC Area, Nagpur",
+      "status": "completed",
+      "recoveredMaterialsList": [
+        "Copper (0.8 kg)",
+        "Aluminium (1.2 kg)",
+        "Electronic Components (0.4 kg)"
+      ],
+      "matchedBuyerName": "Nagpur Metal Recovery (Demo)",
+      "createdAt": "2026-08-17T17:40:05.266Z",
+      "updatedAt": "2026-08-17T17:40:05.307Z"
+    },
+    {
+      "id": 14,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "estimatedPayout": "₹1,500",
+      "payoutType": "points",
+      "rewardPoints": 1650,
+      "pickupDate": "2026-08-28",
+      "pickupAddress": "MIDC Area, Nagpur",
+      "status": "completed",
+      "recoveredMaterialsList": [
+        "Copper (0.8 kg)",
+        "Aluminium (1.2 kg)",
+        "Electronic Components (0.4 kg)"
+      ],
+      "matchedBuyerName": "Nagpur Metal Recovery (Demo)",
+      "createdAt": "2026-08-17T17:37:37.013Z",
+      "updatedAt": "2026-08-17T17:37:37.059Z"
+    },
+    {
+      "id": 13,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "estimatedPayout": "₹1,500",
+      "payoutType": "points",
+      "rewardPoints": 1650,
+      "pickupDate": "2026-08-28",
+      "pickupAddress": "MIDC Area, Nagpur",
+      "status": "completed",
+      "recoveredMaterialsList": [
+        "Copper (0.8 kg)",
+        "Aluminium (1.2 kg)",
+        "Electronic Components (0.4 kg)"
+      ],
+      "matchedBuyerName": "Nagpur Metal Recovery (Demo)",
+      "createdAt": "2026-08-17T17:27:34.337Z",
+      "updatedAt": "2026-08-17T17:27:34.447Z"
+    },
+    {
+      "id": 12,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "estimatedPayout": "₹1,500",
+      "payoutType": "points",
+      "rewardPoints": 1650,
+      "pickupDate": "2026-08-28",
+      "pickupAddress": "MIDC Area, Nagpur",
+      "status": "completed",
+      "recoveredMaterialsList": [
+        "Copper (0.8 kg)",
+        "Aluminium (1.2 kg)",
+        "Electronic Components (0.4 kg)"
+      ],
+      "matchedBuyerName": "Nagpur Metal Recovery (Demo)",
+      "createdAt": "2026-08-17T17:20:26.444Z",
+      "updatedAt": "2026-08-17T17:20:26.542Z"
+    },
+    {
+      "id": 11,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "estimatedPayout": "₹1,500",
+      "payoutType": "points",
+      "rewardPoints": 1650,
+      "pickupDate": "2026-08-28",
+      "pickupAddress": "MIDC Area, Nagpur",
+      "status": "completed",
+      "recoveredMaterialsList": [
+        "Copper (0.8 kg)",
+        "Aluminium (1.2 kg)",
+        "Electronic Components (0.4 kg)"
+      ],
+      "matchedBuyerName": "Nagpur Metal Recovery (Demo)",
+      "createdAt": "2026-08-17T17:08:00.965Z",
+      "updatedAt": "2026-08-17T17:08:01.049Z"
+    },
+    {
+      "id": 10,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "estimatedPayout": "₹1,500",
+      "payoutType": "points",
+      "rewardPoints": 1650,
+      "pickupDate": "2026-08-28",
+      "pickupAddress": "MIDC Area, Nagpur",
+      "status": "completed",
+      "recoveredMaterialsList": [
+        "Copper (0.8 kg)",
+        "Aluminium (1.2 kg)",
+        "Electronic Components (0.4 kg)"
+      ],
+      "matchedBuyerName": "Nagpur Metal Recovery (Demo)",
+      "createdAt": "2026-08-17T16:13:12.450Z",
+      "updatedAt": "2026-08-17T16:13:12.560Z"
+    },
+    {
+      "id": 9,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "Crushed Laptop & Burnt Motherboard",
+      "estimatedPayout": "₹1,500",
+      "payoutType": "points",
+      "rewardPoints": 1650,
+      "pickupDate": "2026-08-28",
+      "pickupAddress": "MIDC Area, Nagpur",
+      "status": "completed",
+      "recoveredMaterialsList": [
+        "Copper (0.8 kg)",
+        "Aluminium (1.2 kg)",
+        "Electronic Components (0.4 kg)"
+      ],
+      "matchedBuyerName": "Nagpur Metal Recovery (Demo)",
+      "createdAt": "2026-08-17T15:37:49.885Z",
+      "updatedAt": "2026-08-17T15:37:49.962Z"
+    },
+    {
+      "id": 8,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "estimatedPayout": "₹1,200",
+      "payoutType": "points",
+      "rewardPoints": 1320,
+      "pickupDate": "2026-08-22",
+      "pickupAddress": "Hingna Road, Nagpur",
+      "status": "completed",
+      "recoveredMaterialsList": [
+        "Copper (0.8 kg)",
+        "Aluminium (1.2 kg)",
+        "Electronic Components (0.4 kg)"
+      ],
+      "matchedBuyerName": "Nagpur Metal Recovery (Demo)",
+      "createdAt": "2026-08-17T10:40:24.980Z",
+      "updatedAt": "2026-08-17T10:40:24.983Z"
+    },
+    {
+      "id": 7,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "Old Electronic Device",
+      "estimatedPayout": "₹500",
+      "payoutType": "points",
+      "rewardPoints": 550,
+      "pickupDate": "2026-08-19",
+      "pickupAddress": "Mumbai",
+      "status": "requested",
+      "recoveredMaterialsList": [],
+      "matchedBuyerName": null,
+      "createdAt": "2026-08-17T10:27:33.723Z",
+      "updatedAt": "2026-08-17T10:27:33.723Z"
+    },
+    {
+      "id": 6,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "estimatedPayout": "₹1,200",
+      "payoutType": "points",
+      "rewardPoints": 1320,
+      "pickupDate": "2026-08-22",
+      "pickupAddress": "Hingna Road, Nagpur",
+      "status": "completed",
+      "recoveredMaterialsList": [
+        "Copper (0.8 kg)",
+        "Aluminium (1.2 kg)",
+        "Electronic Components (0.4 kg)"
+      ],
+      "matchedBuyerName": "Nagpur Metal Recovery (Demo)",
+      "createdAt": "2026-08-17T10:19:16.815Z",
+      "updatedAt": "2026-08-17T10:19:16.818Z"
+    },
+    {
+      "id": 5,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "Broken Dell XPS Laptop & Monitor",
+      "estimatedPayout": "₹1,200",
+      "payoutType": "points",
+      "rewardPoints": 1320,
+      "pickupDate": "2026-08-22",
+      "pickupAddress": "Hingna Road, Nagpur",
+      "status": "completed",
+      "recoveredMaterialsList": [
+        "Copper (0.8 kg)",
+        "Aluminium (1.2 kg)",
+        "Electronic Components (0.4 kg)"
+      ],
+      "matchedBuyerName": "Nagpur Metal Recovery (Demo)",
+      "createdAt": "2026-08-17T10:17:08.523Z",
+      "updatedAt": "2026-08-17T10:17:08.529Z"
+    },
+    {
+      "id": 4,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "iphone",
+      "estimatedPayout": "₹650 - ₹1,500",
+      "pickupDate": "2026-08-19",
+      "pickupAddress": "Mumbai",
+      "status": "scheduled",
+      "createdAt": "2026-08-17T07:25:34.848Z"
+    },
+    {
+      "id": 3,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "iphone",
+      "estimatedPayout": "₹650 - ₹1,500",
+      "pickupDate": "2026-08-19",
+      "pickupAddress": "Mumbai",
+      "status": "scheduled",
+      "createdAt": "2026-08-17T07:19:08.433Z"
+    },
+    {
+      "id": 2,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "i phone ",
+      "estimatedPayout": "₹650 - ₹1,500",
+      "pickupDate": "2026-08-19",
+      "pickupAddress": "Mumbai",
+      "status": "scheduled",
+      "createdAt": "2026-08-17T07:12:36.539Z"
+    },
+    {
+      "id": 1,
+      "customerId": 1,
+      "customerName": "Aarav Patel",
+      "customerEmail": "customer@example.com",
+      "itemType": "i phone ",
+      "estimatedPayout": "₹650 - ₹1,500",
+      "pickupDate": "2026-08-19",
+      "pickupAddress": "Mumbai",
+      "status": "scheduled",
+      "createdAt": "2026-08-17T07:12:33.780Z"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RepairHub - Local Repair Economy Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>RepairHub</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#find-technician">Find Technician</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Don't Throw It Away<br>Get It Fixed</h2>
+                <p>Connect with verified local technicians. Fair pricing, quick pickup, and warranty backed by trust.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="document.getElementById('find-technician').scrollIntoView({behavior: 'smooth'})">Find a Technician</button>
+                    <button class="btn btn-secondary" onclick="document.getElementById('how-it-works').scrollIntoView({behavior: 'smooth'})">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why Choose RepairHub</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>AI-Powered Diagnosis</h3>
+                    <p>Describe your issue and get an AI-based assessment. Know what's wrong before calling a technician.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Transparent Pricing</h3>
+                    <p>See repair costs upfront. No hidden charges. What you see is what you pay.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Verified Technicians</h3>
+                    <p>All technicians are verified, rated, and insured. Complete peace of mind.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Pickup & Delivery</h3>
+                    <p>We pick up your item and deliver it back fixed. Convenient and hassle-free.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✅</div>
+                    <h3>Warranty Coverage</h3>
+                    <p>Every repair comes with a warranty. If something goes wrong, we've got you covered.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">♻️</div>
+                    <h3>Save the Planet</h3>
+                    <p>Reduce e-waste and extend product life. Support a sustainable economy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Describe the Issue</h3>
+                    <p>Tell us what's broken. Use our AI tool to diagnose or describe it yourself.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Get a Quote</h3>
+                    <p>See transparent pricing and typical repair timeline from verified technicians near you.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>We Pick It Up</h3>
+                    <p>Schedule a pickup. Our team collects your item at your convenience.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>It Gets Fixed</h3>
+                    <p>Your local technician repairs it with quality parts and professional care.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>We Deliver Back</h3>
+                    <p>Fixed and tested. Delivered to your door with warranty documentation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Repair Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2>What We Repair</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">📱</div>
+                    <h3>Electronics & Phones</h3>
+                    <p>Screens, batteries, water damage, software issues</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🧊</div>
+                    <h3>Appliances</h3>
+                    <p>Refrigerators, washing machines, microwaves, coffee makers</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🪑</div>
+                    <h3>Furniture</h3>
+                    <p>Upholstery, wood repair, hinges, drawers, cushions</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🚴</div>
+                    <h3>Bicycles</h3>
+                    <p>Chains, brakes, gears, wheel truing, suspension</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Find Technician -->
+    <section id="find-technician" class="find-technician">
+        <div class="container">
+            <h2>Find Local Technicians Near You</h2>
+            <div class="search-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Enter your zipcode or city" id="locationInput">
+                </div>
+                <div class="form-group">
+                    <select id="categorySelect">
+                        <option value="">Select category</option>
+                        <option value="electronics">Electronics & Phones</option>
+                        <option value="appliances">Appliances</option>
+                        <option value="furniture">Furniture</option>
+                        <option value="bicycles">Bicycles</option>
+                    </select>
+                </div>
+                <button class="btn btn-primary" onclick="searchTechnicians()">Search</button>
+            </div>
+            <div id="technicianResults" class="technician-results"></div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat">
+                    <h3>50,000+</h3>
+                    <p>Items Repaired</p>
+                </div>
+                <div class="stat">
+                    <h3>2,500+</h3>
+                    <p>Verified Technicians</p>
+                </div>
+                <div class="stat">
+                    <h3>47K Tons</h3>
+                    <p>E-Waste Prevented</p>
+                </div>
+                <div class="stat">
+                    <h3>$8M+</h3>
+                    <p>User Savings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What People Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"My laptop was dead. Thought I'd have to buy a new one. RepairHub found a technician who fixed it for $150. Saved me $1000!"</p>
+                    <h4>Sarah M.</h4>
+                    <span>Portland, OR</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The whole process was transparent. They picked it up, fixed my washing machine, and delivered it back. No hassle at all."</p>
+                    <h4>James L.</h4>
+                    <span>Seattle, WA</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"I appreciate that I'm supporting a local technician. Great service and the warranty gives me confidence."</p>
+                    <h4>Maria G.</h4>
+                    <span>Austin, TX</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Give Your Electronics a Second Life?</h2>
+            <p>Join thousands saving money and reducing e-waste</p>
+            <button class="btn btn-primary btn-large" onclick="document.getElementById('find-technician').scrollIntoView({behavior: 'smooth'})">Get Started Now</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div id="contact" class="footer-content">
+                <div class="footer-section">
+                    <h4>RepairHub</h4>
+                    <p>Making repair accessible, affordable, and sustainable.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#find-technician">Technicians</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>For Technicians</h4>
+                    <ul>
+                        <li><a href="#">Join as Technician</a></li>
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: hello@repairhub.com</p>
+                    <p>Phone: 1-800-REPAIR-1</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 RepairHub. All rights reserved. | <a href="#">Privacy</a> | <a href="#">Terms</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
